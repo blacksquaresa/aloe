@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<aloe:seotags />
+	<meta http-equiv="pragma" content="no-cache" />
+	<link href="##$skin->webpath##/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="##$skin->webpath##/css/content.css" rel="stylesheet" type="text/css" />
+	<link href="##$webroot##controls/lightbox/lightbox.css" rel="stylesheet" type="text/css" media="screen" />
+	<script src="##$webroot##js/Common.js"></script>
+	<script src="##$webroot##controls/lightbox/lightbox.js"></script>
+	<aloe:if condition="!empty($settings->typekit)">
+		<script type="text/javascript" src="//use.typekit.net/##settings->typekit##.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	</aloe:if>
+	<aloe:call object="agent" method="init" param1="false" />
+</head>
+<body>
+	<div id="site">
+		<aloe:if condition="!$settings->islivesite">
+		<!-- Debug Block --> 
+		<script>function debug(text){ document.getElementById('debug').innerHTML += '<br />' + text; }	</script>
+		<div id="debug" style="position: absolute; background-color: #DDD; color: #333; padding: 5px; border: solid 1px #333; top: 0px; left: 0px; font: 11px Verdana; z-index: 9999999;"></div>
+		<div id="testsitealert">Test Site - Changes may occur without warning.</div>
+		</aloe:if>
+		<div id="container">
+			<div id="header">
+				<table cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+						<td style="text-align:center;"><img src="/images/logo.png" /></td>
+					</tr>
+				</table>
+			</div>
+			<div id="menu">
+				<aloe:menu position="left" />
+			</div>
+			<div class="content_table">
+				<aloe:content />
+			</div>
+		</div>
+		<div id="footer">
+			<table cellpadding="0" cellspacing="0" width="100%" class="footertable">
+				<tr>
+					<td class="footer_text">&copy; <aloe:settings var="sitename" />&nbsp;<aloe:call method="date" param1="Y" /></td>
+					<td class="footer_text_right">
+						<a href="##{getHTMPath(null,'index.php','id',PAGE_DISCLAIMER)}##">Disclaimer</a>  &nbsp;|&nbsp; 
+						<a href="http://www.blacksquare.co.za">site by Black Square</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script language="javascript">if(LB_Init)LB_Init();</script>
+	<aloe:if condition="$settings->islivesite &amp;&amp; !empty($settings->googlecode)">
+		<script language="javascript">
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', '##$settings->googlecode##']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		</script>
+	</aloe:if>
+</body>
+</html>

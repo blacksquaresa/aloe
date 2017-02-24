@@ -1,0 +1,8 @@
+You have an enquiry from the #sitename# website
+
+From: #name#
+Email Address: #email#
+Phone Number: #phone#
+
+Enquiry:
+#enquiry#

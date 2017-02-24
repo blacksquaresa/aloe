@@ -1,0 +1,290 @@
+/* ================  Popups  =================== */
+.content_container {
+min-height : 600px;
+border-collapse : collapse;
+}
+
+.content_popupcontent {
+padding : 10px;
+background : #ffffff;
+font-size : 12px;
+color : #54594d;
+}
+
+.content_popupcontent P, content_popupcontent TD {
+font-size : 11px;
+}
+
+.content_select {
+width : 312px;
+}
+
+.ccl_selectortable
+{
+	margin: 10px;
+}
+
+.ccl_selectorcolumn
+{
+	padding: 0px 20px;
+	border-left: solid 1px #aab1a0;
+}
+
+.ccl_selectordivider
+{
+	width: 0px;
+	height: 100%;
+	border-left: solid 1px #aab1a0;
+	margin: 0px 20px;
+	font-size: 0px;
+}
+
+.ccl_selectorblock
+{
+	background-color: #e1e8d9;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 8px;
+	width: 164px;
+	margin: 10px 0px;
+	cursor: pointer;
+	min-height: 45px;
+}
+
+.ccl_selectorgroup {
+font-size : 14px;
+color : #54594d;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.ccl_selectortext {
+letter-spacing : normal;
+font-size : 11px;
+color : #54594d;
+}
+
+.ccl_selectorheading {
+letter-spacing : normal;
+font-size : 14px;
+color : #f43902;
+}
+/* ================  Tree view =================== */
+
+#treeview
+{
+	position: relative;
+	min-height: 560px;
+	width: 200px;
+}
+
+#trv_container
+{
+	float: left;	
+	overflow: hidden;
+	width: 180px;
+	padding: 10px 20px 10px 0;
+	background: #fff;
+	-moz-transition: width 200ms 200ms ease-out,border 200ms 300ms;
+	-webkit-transition: width 200ms 200ms ease-out,border 200ms 300ms;
+	transition: width 200ms 200ms ease-out,border 200ms 300ms;
+}
+
+#trv_container:focus, #trv_container:hover
+{
+	width: 600px;
+	border-right: solid 1px #868782;
+}
+
+/* ================  Content Table  =================== */
+.maincontent {
+	margin : 0px auto;
+	table-layout:fixed;
+}
+
+.contentcolumn
+{
+	padding : 0px;
+	border : 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px 5px 0 0;
+}
+
+/* ========================== Content Covers ================================== */
+
+.ContentColumnButtons {
+	background : #e1e8d9;
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.iframe
+{
+	background: #fff url('../images/loader.gif') center center no-repeat;
+}
+
+.ContentBlockShadow
+{
+	background-color: #f2efe8; 
+	border: dashed 1px #aaa;
+	overflow: hidden;
+	text-align: center;
+	font-size: 20px;
+	min-height: 20px;
+}
+
+/* ================  Page title and clipboard  =================== */
+.menusystem_title {
+	color : #f43902;
+	width : 230px;
+	height : 22px;
+	padding-top : 7px;
+	display : block;
+	font-size: 14px;
+}
+
+.content_dates
+{
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+#clipboard_previewbutton
+{
+	font-size: 11px;
+}
+
+#cpd_date, #cpd_updated
+{
+	font-size: 12px;
+	text-transform: none;
+}
+
+#cpd_reseturlbutton
+{
+	font-size: 11px;
+	float: right;
+	color: #f43902;
+}
+
+#cpd_friendlyurl
+{
+	width: 460px;
+	height: 36px;
+	color: #7e8573;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+/* ================  Layout selector  =================== */
+.template_block
+{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	margin: 10px 0 0 20px;
+	background-color: #e1e8d9;
+}
+
+.template_selected
+{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	background-color: #b8d592;
+	margin: 10px 0 0 20px;
+}
+
+.template_block:first-child, .template_selected:first-child
+{
+	margin: 10px 0 0 0;
+}
+
+.template_container
+{
+	white-space: nowrap;
+}
+
+.template_window
+{
+	width: 480px;
+	height: 80px;
+	overflow: auto;
+	overflow-y: none;
+}
+
+.crp_custom_container
+{
+	height: 130px;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+/* ================  Layouts  =================== */
+
+.contentlayout
+{
+	margin: 0 auto 10px auto;
+	position: relative;
+	background-color: #edf4e4;
+	border-radius: 0 5px 5px 5px;
+}
+
+.ContentLayoutTab
+{
+	position: absolute;
+	top: 0px;
+	left: -30px;
+	background-color: #edf4e4;
+	border-radius: 5px 0 0 5px;
+	width: 20px;
+	height: 20px;
+	padding: 12px 0px 13px 10px;
+}
+
+.ContentLayoutShadow
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #edf4e4;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	display: none;
+}
+
+.ContentLayoutDragShadow
+{
+	background-color: #edf4e4; 
+	border: dashed 1px #B8D592;
+	overflow: hidden;
+	text-align: center;
+	font-size: 20px;
+	min-height: 20px;
+	margin: 0px auto 10px auto;
+}
+
+.ContentLayoutButtons
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: none;
+}
+
+.ContentLayoutAddButton
+{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+}
+
+.layout_custom_container
+{
+	height: 200px;
+	overflow: auto;
+}

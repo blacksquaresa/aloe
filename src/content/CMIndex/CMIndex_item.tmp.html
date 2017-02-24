@@ -1,0 +1,10 @@
+<aloe:if condition="$this->parent->display=='item'">
+	<div class="CMIndex_item">
+		<h2 class="CMIndex_title"><a href="##$this->link##">##$this->title##</a></h2>
+		<aloe:if condition="!empty($this->description)"><div class="CMIndex_description">##$this->description##</div></aloe:if>
+		<a class="arrowlink" href="##$this->link##">read more</a>
+	</div>
+	<hr />
+<aloe:else />
+	<a class="arrowlink" href="##$this->link##">##$this->title##</a>
+</aloe:if>

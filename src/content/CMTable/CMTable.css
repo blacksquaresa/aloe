@@ -1,0 +1,7 @@
+.CMTable_container { margin-bottom: 20px; }
+.CMTable_Table { width: 100%; }
+.CMTable_ColumnHead, .CMTable_RowHead, .CMTable_Cell { padding: 5px; } 
+.CMTable_ColumnHead { border-bottom: solid 1px #1a74c0; font-weight: bold; color: #1a74c0; } 
+.CMTable_RowHead { border-bottom: solid 1px #86b3d9; font-weight: bold; color: #1a74c0; } 
+.CMTable_Cell { border-bottom: solid 1px #86b3d9; } 
+.CMTable_Cell p:last-child { margin-bottom: 0px; } 

@@ -1,0 +1,97 @@
+.datefield {
+color : #404040;
+width : 231px;
+border-left : 1px solid #e2e2ec;
+border-right : 1px solid #dadfe5;
+border-top : 1px solid #aaadb2;
+border-bottom : 1px solid #e2e9ef;
+background : url('down.gif') no-repeat 98% center;
+cursor : default;
+}
+
+.datefield_open {
+color : #404040;
+width : 231px;
+border-left : 1px solid #e2e2ec;
+border-right : 1px solid #dadfe5;
+border-top : 1px solid #aaadb2;
+border-bottom : 1px solid #b7d9ed;
+background : url('up.gif') no-repeat 98% center;
+cursor : default;
+}
+
+.cldiv {
+border-left : 1px solid #e2e2ec;
+border-right : 1px solid #dadfe5;
+border-bottom : 1px solid #e2e9ef;
+background-color : white;
+width : 241px !important ;
+padding : 0 0 10px 0;
+text-align : center;
+z-index : 10000;
+}
+
+.cltable {
+width : 215px;
+margin-left : 12px;
+margin-right : 14px;
+}
+
+.cltable TD {
+text-align : center;
+font-size : 11px;
+color : #54594d;
+}
+
+.cltable A {
+text-decoration : none;
+font-size : 11px;
+color : #54594d;
+}
+
+.cltable TD.cltoday, .cltable TD.cltoday A {
+color : #8aae5a;
+}
+
+.cltable TD.clselected, .cltable TD.clselected A {
+color : #f43902;
+}
+
+.clnotselected a {
+color : #aab1a0;
+}
+
+.cldayname, .cldayname .cldate {
+padding-top : 5px !important ;
+}
+.cldayname .cldate {
+padding-top : 5px;
+}
+
+.cldate, .cltoday, .clselected {
+border-bottom : 1px solid #ccd4c2;
+padding-bottom : 2px;
+padding-top : 1px;
+}
+
+.clyeartitle {
+padding : 0 0 1px 0;
+margin : 0;
+}
+
+.clmonthtitle {
+padding : 0 0 1px 0;
+margin : 0;
+}
+
+.date_rowspacer {
+height : 4px;
+margin : 0;
+padding : 0;
+}
+
+.date_row1 {
+height : 12px;
+margin : 0;
+padding : 0;
+}

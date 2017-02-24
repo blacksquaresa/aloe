@@ -1,0 +1,251 @@
+/* =============================== Mandatory Styles =============================== */
+html { height: 100%; }
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#site
+{
+	position: relative;
+	min-height: 100%;
+}
+
+#container  
+{
+	width: 100%; 
+	padding: 0; 
+}
+
+#testsitealert {
+	height: 20px;
+	padding: 5px;
+	background-color: #d33;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	border-bottom: solid 1px #000;
+	color: #fff;
+}
+
+#header {
+	padding : 0;
+	width : 100%;
+	height: 100px;
+	background-color: #004762;
+}
+
+#menu
+{
+	width : 100%;
+	background-color: #0082b2;
+	height: 30px;
+}
+
+#content
+{
+	width : 960px;
+	margin: 0px auto;
+	padding: 30px 0px 90px 0px;
+}
+
+/* =============== Header Details =============*/
+#headercontent
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#headerlogo
+{
+	font-size : 0px;
+	line-height: 1em;
+	display: table-cell;
+	height: 100px;
+	vertical-align: middle;
+	width: 660px;
+}
+
+#contactdetails     
+{
+	width: 300px;
+	display: table-cell;
+	height: 100px;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.contact_detail
+{
+	background-color: #075d7d;
+	line-height: 20px;
+	color: #fff;
+	border-radius: 16px;
+	max-width: 240px;
+	padding: 8px 15px 8px 45px;
+	text-align: left;
+	font-size: 20px;
+	overflow: hidden;
+	margin: 10px 0;
+	box-shadow: 0 0 2px 1px #053e53;
+}
+.contact_detail a
+{
+	color: #fff;
+	text-decoration: none;
+}
+.contact_phone
+{
+	background: #075d7d url('../images/phone.png') 12px 50% no-repeat;
+}
+.contact_email
+{
+	background: #075d7d url('../images/email.png') 12px 50% no-repeat;
+}
+/* ============================ Menu Navigation =================== */
+menu
+{
+	display: block;
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+menu a:visited
+{
+	color: #fff;
+}
+
+.menulevel1
+{
+	position: relative;
+	height: 30px;
+	display: block;
+}
+
+.linklevel1 
+{
+	display : inline-block;
+	margin : 0;
+}
+
+.linklevel1 a
+{
+	font-size: 14px;
+	display : block;
+	letter-spacing : 1px;
+	color : #ffffff;
+	margin : 0;
+	padding : 0px 20px;
+	text-decoration : none;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.linklevel1:hover, .linklevel1selected > a {
+	background-color : #004762;
+}
+
+.menulevel2
+{
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	background-color : #004762;
+	display: none;
+	padding: 20px 0px;
+	z-index: 9999;
+}
+
+.linklevel1:hover .menulevel2
+{
+	display: block;
+}
+
+.linklevel2
+{
+	display: block;
+	margin : 0;
+	
+}
+
+.linklevel2:hover, .linklevel2selected > a {
+	background-color : #0082b2;
+}
+
+/* ==========================Content Table =================== */
+.contentcolumn_1 {
+	padding : 0;
+	width : 960px;
+}
+
+.contentcolumn_2 {
+	padding : 0;
+	width : 630px;
+}
+
+.contentcolumn_3 {
+	padding : 0 30px 0 0;
+	width : 300px;
+}
+
+.contentcolumn_4 {
+	padding : 0;
+	width : 300px;
+}
+
+.contentcolumn_5 {
+	padding : 0 0 0 30px;
+	width : 300px;
+}
+
+.contentcolumn_6 {
+	padding : 0 20px 0 0;
+	width : 460px;
+}
+
+.contentcolumn_7 {
+	padding : 0 0 0 20px;
+	width : 460px;
+}
+
+/* ====================== footer =============================== */
+#footer
+{
+	position: absolute;
+	bottom: 0px;
+	height: 90px;
+	width: 100%;
+	background: #76888f;
+}
+
+#footercontent {
+	font-size : 14px;
+	margin : 0 auto;
+	width : 960px;
+	height: 90px;
+	color: #fff;
+}
+
+#footerleft {
+	padding : 20px 20px 0 0;
+	width: 640px;
+	height: 70px;
+	display: table-cell;
+}
+
+#footerright {
+	text-align : right;
+	padding : 20px 0 0 0;
+	width: 300px;
+	height: 70px;
+	display: table-cell;
+}
+
+#footercontent a, #footercontent a:hover, #footercontent a:active {
+	color : #fff;
+	text-decoration : none;
+}
+
+/* =============================================== The End ==============================================================================*/

@@ -1,0 +1,18 @@
+/* =========  Installation  ========== */
+.install_name
+{
+	font-weight: bold;
+}
+
+.install_remove
+{
+	color: #F43902;
+}
+
+.install_window
+{
+	width: 280px;
+	min-height: 200px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+}

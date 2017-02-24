@@ -1,0 +1,53 @@
+.CMPhotoGallery_container { margin-top: 0px; margin-bottom: 20px; }
+
+/* Picture Frame */
+.CMPhotoGallery_frame { position: relative; overflow: hidden; margin-bottom: 10px; }
+.CMPhotoGallery_loading { position: absolute; top: 50%; left: 50%; margin: -16px 0 0 -16px; }
+.CMPhotoGallery_imagecontainer { position: absolute; top: 0px; left: 0px; visibility: hidden; }
+.CMPhotoGallery_caption { position: absolute; bottom: 0px; left: 0px; }
+.CMPhotoGallery_captionback { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: #333; opacity: .75; filter: alpha(opacity=75); }
+.CMPhotoGallery_captiontext { padding: 10px; position: relative; font-size: 14px; color: #fff; }
+
+.CMPhotoGallery_column1 .CMPhotoGallery_frame { width: 960px; height: 640px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_frame { width: 630px; height: 420px; }
+
+.CMPhotoGallery_column1 .CMPhotoGallery_imagecontainer, .CMPhotoGallery_column1 .CMPhotoGallery_imagecontainer img { width: 960px; height: 640px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_imagecontainer, .CMPhotoGallery_column2 .CMPhotoGallery_imagecontainer img { width: 630px; height: 420px; }
+
+.CMPhotoGallery_column1 .CMPhotoGallery_caption { width: 960px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_caption { width: 630px; }
+
+/* Scroller */
+.CMPhotoGallery_beforebutton { background: url('scrollleft.png') no-repeat; cursor: pointer; float: left; }
+.CMPhotoGallery_afterbutton { background: url('scrollright.png')  no-repeat;  cursor: pointer; float: left; }
+.CMPhotoGallery_beforedisabled { cursor: default; }
+.CMPhotoGallery_afterdisabled { cursor: default; }
+
+.CMPhotoGallery_panel a { text-decoration: none; border: none; font-size: 0px; line-height: 1em; }
+.CMPhotoGallery_window { overflow: hidden; position: relative; margin: 0px 0px; float: left; }
+.CMPhotoGallery_belt { position: relative; left: 0px; }
+.CMPhotoGallery_panel { padding: 0; float: left; text-decoration: none; font-size: 0px; line-height: 1em; }
+
+.CMPhotoGallery_column1 .CMPhotoGallery_slider { height: 53px; width: 960px; }
+.CMPhotoGallery_column1 .CMPhotoGallery_window { height: 53px; width: 900px; }
+.CMPhotoGallery_column1 .CMPhotoGallery_belt { height: 53px;  }
+.CMPhotoGallery_column1 .CMPhotoGallery_panel { width: 90px; height: 53px; }
+.CMPhotoGallery_column1 .CMPhotoGallery_panel img { margin: 0px 5px 0px 5px; width: 80px; height: 53px; }
+.CMPhotoGallery_column1 .CMPhotoGallery_beforebutton { width: 30px; height: 53px; background-position: 5px 0px; }
+.CMPhotoGallery_column1 .CMPhotoGallery_afterbutton { width: 30px; height: 53px; background-position: 5px 0px; }
+.CMPhotoGallery_column1 .CMPhotoGallery_beforeclicked, .CMPhotoGallery_column1 .CMPhotoGallery_beforebutton:hover { background-position: 5px -53px; }
+.CMPhotoGallery_column1 .CMPhotoGallery_afterclicked, .CMPhotoGallery_column1 .CMPhotoGallery_afterbutton:hover { background-position: 5px -53px; }
+.CMPhotoGallery_column1 .CMPhotoGallery_beforedisabled, .CMPhotoGallery_column1 .CMPhotoGallery_beforedisabled:hover { background-position: 5px -106px; }
+.CMPhotoGallery_column1 .CMPhotoGallery_afterdisabled, .CMPhotoGallery_column1 .CMPhotoGallery_afterdisabled:hover { background-position: 5px -106px; }
+
+.CMPhotoGallery_column2 .CMPhotoGallery_slider { height: 53px; width: 630px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_window { height: 53px; width: 570px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_belt { height: 53px;  }
+.CMPhotoGallery_column2 .CMPhotoGallery_panel { width: 95px; height: 53px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_panel img { margin: 0px 7px 0px 8px; width: 80px; height: 53px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_beforebutton { width: 30px; height: 53px; background-position: 5px 0px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_afterbutton { width: 30px; height: 53px; background-position: 5px 0px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_beforeclicked, .CMPhotoGallery_column2 .CMPhotoGallery_beforebutton:hover { background-position: 5px -53px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_afterclicked, .CMPhotoGallery_column2 .CMPhotoGallery_afterbutton:hover { background-position: 5px -53px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_beforedisabled, .CMPhotoGallery_column2 .CMPhotoGallery_beforedisabled:hover { background-position: 5px -106px; }
+.CMPhotoGallery_column2 .CMPhotoGallery_afterdisabled, .CMPhotoGallery_column2 .CMPhotoGallery_afterdisabled:hover { background-position: 5px -106px; }

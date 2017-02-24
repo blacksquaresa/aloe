@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+
+<channel>
+	<title>Black Square Blog</title>
+	<atom:link href="http://www.blacksquare.co.za/blog/?feed=rss2" rel="self" type="application/rss+xml"/>
+	<link>http://www.blacksquare.co.za/blog</link>
+	<description/>
+	<lastBuildDate>Mon, 17 Sep 2012 06:38:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5</generator>
+		<item>
+		<title>Jeff’s Bikes</title>
+		<link>http://www.blacksquare.co.za/blog/?p=695</link>
+		<comments>http://www.blacksquare.co.za/blog/?p=695#comments</comments>
+		<pubDate>Mon, 17 Sep 2012 06:38:59 +0000</pubDate>
+		<dc:creator>blacksquare</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.blacksquare.co.za/blog/?p=695</guid>
+		<description><![CDATA[We&#8217;ve built a new SmallBiz site for Jeff&#8217;s Bikes, just down the road from us.]]></description>
+		<wfw:commentRss>http://www.blacksquare.co.za/blog/?feed=rss2&amp;p=695</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>An update, and a new site launch</title>
+		<link>http://www.blacksquare.co.za/blog/?p=688</link>
+		<comments>http://www.blacksquare.co.za/blog/?p=688#comments</comments>
+		<pubDate>Tue, 19 Jun 2012 15:13:41 +0000</pubDate>
+		<dc:creator>blacksquare</dc:creator>
+				<category><![CDATA[Content]]></category>
+		<category><![CDATA[Content Management]]></category>
+		<category><![CDATA[New websites]]></category>
+		<category><![CDATA[Project Updates]]></category>
+		<category><![CDATA[cegaa]]></category>
+		<category><![CDATA[centre for economic governance and aids in africa]]></category>
+		<category><![CDATA[content blocks]]></category>
+		<category><![CDATA[content creation]]></category>
+		<category><![CDATA[content management]]></category>
+		<category><![CDATA[content structuring]]></category>
+		<category><![CDATA[website]]></category>
+		<category><![CDATA[website content]]></category>
+		<category><![CDATA[website design]]></category>
+		<category><![CDATA[website development]]></category>
+		<category><![CDATA[websites]]></category>
+
+		<guid isPermaLink="false">http://www.blacksquare.co.za/blog/?p=688</guid>
+		<description><![CDATA[We've been very quiet on our blog this year, because we've had a very busy year. Recently, we launched a new, highly functional website...]]></description>
+		<wfw:commentRss>http://www.blacksquare.co.za/blog/?feed=rss2&amp;p=688</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>HTML5 – Some Thoughts (Part 3 of 3)</title>
+		<link>http://www.blacksquare.co.za/blog/?p=685</link>
+		<comments>http://www.blacksquare.co.za/blog/?p=685#comments</comments>
+		<pubDate>Mon, 07 Nov 2011 06:28:14 +0000</pubDate>
+		<dc:creator>blacksquare</dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Geekiness]]></category>
+		<category><![CDATA[browser compatibility]]></category>
+		<category><![CDATA[browsers]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[html5]]></category>
+		<category><![CDATA[IE7]]></category>
+		<category><![CDATA[website code]]></category>
+
+		<guid isPermaLink="false">http://www.blacksquare.co.za/blog/?p=685</guid>
+		<description><![CDATA[Unfortunately, there is a reason not to use HTML5 tags – Internet Explorer 7.]]></description>
+		<wfw:commentRss>http://www.blacksquare.co.za/blog/?feed=rss2&amp;p=685</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>HTML5 –  Some Thoughts (Part 2 of 3)</title>
+		<link>http://www.blacksquare.co.za/blog/?p=683</link>
+		<comments>http://www.blacksquare.co.za/blog/?p=683#comments</comments>
+		<pubDate>Fri, 04 Nov 2011 06:21:02 +0000</pubDate>
+		<dc:creator>blacksquare</dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Geekiness]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[html5]]></category>
+		<category><![CDATA[metatags]]></category>
+		<category><![CDATA[search algorithms]]></category>
+		<category><![CDATA[search engines]]></category>
+		<category><![CDATA[website code]]></category>
+		<category><![CDATA[XML]]></category>
+
+		<guid isPermaLink="false">http://www.blacksquare.co.za/blog/?p=683</guid>
+		<description><![CDATA[The keyword and description meta-tags are still used by Google and other search engines, and so will the new HTML5 tags. ]]></description>
+		<wfw:commentRss>http://www.blacksquare.co.za/blog/?feed=rss2&amp;p=683</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>HTML5 – Some Thoughts (Part 1 of 3)</title>
+		<link>http://www.blacksquare.co.za/blog/?p=678</link>
+		<comments>http://www.blacksquare.co.za/blog/?p=678#comments</comments>
+		<pubDate>Thu, 03 Nov 2011 08:20:50 +0000</pubDate>
+		<dc:creator>blacksquare</dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Geekiness]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[html5]]></category>
+		<category><![CDATA[website code]]></category>
+		<category><![CDATA[XML]]></category>
+
+		<guid isPermaLink="false">http://www.blacksquare.co.za/blog/?p=678</guid>
+		<description><![CDATA[Previous versions of HTML were designed specifically for markup, so they only worried about how the words and images were placed on the page relative to each other. No care at all was given to the meaning or relative significance of the words. HTML5 brings us much closer to a proper XML system by allowing both layout and structural tags, to tell the browser not only where to place things, but also what the various parts of the code represent.]]></description>
+		<wfw:commentRss>http://www.blacksquare.co.za/blog/?feed=rss2&amp;p=678</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Websites on the iPhone and iPad</title>
+		<link>http://www.blacksquare.co.za/blog/?p=672</link>
+		<comments>http://www.blacksquare.co.za/blog/?p=672#comments</comments>
+		<pubDate>Fri, 30 Sep 2011 09:52:06 +0000</pubDate>
+		<dc:creator>blacksquare</dc:creator>
+				<category><![CDATA[Usability]]></category>
+		<category><![CDATA[Website Tips]]></category>
+		<category><![CDATA[file upload on iphone]]></category>
+		<category><![CDATA[flash on ipad]]></category>
+		<category><![CDATA[iPad]]></category>
+		<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">http://www.blacksquare.co.za/blog/?p=672</guid>
+		<description><![CDATA[Two problems with iPhone and iPad compatibility that can affect your decision to adjust your website.]]></description>
+		<wfw:commentRss>http://www.blacksquare.co.za/blog/?feed=rss2&amp;p=672</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Facebook Likes Twitter, but do we like this?</title>
+		<link>http://www.blacksquare.co.za/blog/?p=668</link>
+		<comments>http://www.blacksquare.co.za/blog/?p=668#comments</comments>
+		<pubDate>Tue, 20 Sep 2011 08:31:33 +0000</pubDate>
+		<dc:creator>blacksquare</dc:creator>
+				<category><![CDATA[Content]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Social Networking]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[social media]]></category>
+		<category><![CDATA[social media marketing]]></category>
+
+		<guid isPermaLink="false">http://www.blacksquare.co.za/blog/?p=668</guid>
+		<description><![CDATA[The new Facebook to Twitter functionality is great, but is it going to be a part of an integrated strategy, or are you just going to be lazy about it?]]></description>
+		<wfw:commentRss>http://www.blacksquare.co.za/blog/?feed=rss2&amp;p=668</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Link Selectors – Handy Little Things</title>
+		<link>http://www.blacksquare.co.za/blog/?p=663</link>
+		<comments>http://www.blacksquare.co.za/blog/?p=663#comments</comments>
+		<pubDate>Tue, 06 Sep 2011 08:19:36 +0000</pubDate>
+		<dc:creator>blacksquare</dc:creator>
+				<category><![CDATA[Content]]></category>
+		<category><![CDATA[Geekiness]]></category>
+
+		<guid isPermaLink="false">http://www.blacksquare.co.za/blog/?p=663</guid>
+		<description><![CDATA[Our current CMS includes a link selector widget which allows the user to select a page or document to which to link. The selector comes in two flavours – one for use from within the TinyMCE editor, and the other for everywhere else. The selector is one of the most useful widgets we have, and [...]]]></description>
+		<wfw:commentRss>http://www.blacksquare.co.za/blog/?feed=rss2&amp;p=663</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>jQuery (again) – Understand your scripts</title>
+		<link>http://www.blacksquare.co.za/blog/?p=658</link>
+		<comments>http://www.blacksquare.co.za/blog/?p=658#comments</comments>
+		<pubDate>Fri, 02 Sep 2011 07:00:37 +0000</pubDate>
+		<dc:creator>blacksquare</dc:creator>
+				<category><![CDATA[Geekiness]]></category>
+		<category><![CDATA[Script]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[jquery]]></category>
+		<category><![CDATA[web scripts]]></category>
+
+		<guid isPermaLink="false">http://www.blacksquare.co.za/blog/?p=658</guid>
+		<description><![CDATA[Following on from our previous post about jQuery, more explanation of why it shouldn't be learned or used in isolation.]]></description>
+		<wfw:commentRss>http://www.blacksquare.co.za/blog/?feed=rss2&amp;p=658</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>jQuery – Not always the right tool</title>
+		<link>http://www.blacksquare.co.za/blog/?p=656</link>
+		<comments>http://www.blacksquare.co.za/blog/?p=656#comments</comments>
+		<pubDate>Wed, 31 Aug 2011 08:06:41 +0000</pubDate>
+		<dc:creator>blacksquare</dc:creator>
+				<category><![CDATA[Geekiness]]></category>
+		<category><![CDATA[Script]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[jquery]]></category>
+		<category><![CDATA[script]]></category>
+		<category><![CDATA[website coding]]></category>
+
+		<guid isPermaLink="false">http://www.blacksquare.co.za/blog/?p=656</guid>
+		<description><![CDATA[JQuery can be a powerful tool, but it should be used sparingly and only when actually needed.]]></description>
+		<wfw:commentRss>http://www.blacksquare.co.za/blog/?feed=rss2&amp;p=656</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

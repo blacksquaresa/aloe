@@ -1,0 +1,172 @@
+body, html
+{
+	margin: 0px;
+	padding: 0px;
+	background: White;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+a img { border: 0; }
+
+.rs_toobar, .rs_foldertoolbar
+{
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	height: 20px;
+}
+
+.rs_resourcecover
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+.rs_treecell
+{
+	width: 200px;
+	vertical-align: top;
+}
+
+.rs_filecell
+{
+	vertical-align: top;
+}
+
+#cistrv_container
+{
+	width: 180px;
+	height: 348px;
+	overflow: auto;
+}
+
+#rs_resourcecontainer
+{
+	height:300px;
+	overflow: auto;
+	width: 776px;
+}
+
+.rs_resourceupload
+{
+	margin: 10px 0 5px 0;
+	padding: 5px 5px 5px 33px;
+	background: #e1e8d9 url('../images/admin/common/upload.png') 8px 50% no-repeat;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+input, select, textarea
+{
+	font: 11px Arial;
+}
+
+.header
+{
+	font-size: 14px;
+	color: #54594d;
+}
+
+.note
+{
+	font-size: 10px;
+	font-style: italic;
+	color: #333;
+}
+/*================= Move File Classes =====================================*/
+.rs_movefilehead { background-color: #F2EFE8; border-bottom: 2px solid #F2EFE8; color: #575756; font-size: 12px; height: 15px; padding: 6px 4px 5px 10px; text-transform: uppercase; }
+.rs_movefilecover { position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; display: none; }
+.rs_movefiledetails { opacity: 1; filter: alpha(opacity=100); position: relative; width: 500px; border: solid 1px #93928e; margin: 22px 0 0 0; background: #fff;}
+.rs_movefilecancel { width: 100%; }
+.rs_movefilelist { height: 100px; overflow: auto; border: solid 1px #eee; padding: 2px; text-align: left; width: 200px; }
+.rs_movefoldercover { position: absolute; top: 0px; left: 0px; width: 100%; height: 27px; background-color: #fff; opacity: 0.7;	filter: alpha(opacity=70); display: none; }
+.rs_movefilearrow { padding: 20px 10px; }
+.rs_movefilelisthead { color : #a90000; text-transform: uppercase; text-align : left; padding : 3px 5px 4px 0; vertical-align: top; }
+.rs_movefiledescription { min-width: 180px; padding: 0px 40px 20px 0px; }
+#rs_movefileheading { font-size: 18px; margin: 20px 0 12px 0; }
+#rs_movefilelistcontainer { margin: 20px 20px 20px 0; }
+/*================= Icon Classes =====================================*/
+.rsi_select { background: url('../images/resources/selector/icons.png') 0px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_manage { background: url('../images/resources/selector/icons.png') 0px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_iconview { background: url('../images/resources/selector/icons.png') -20px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_iconview_off { background: url('../images/resources/selector/icons.png') -20px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_detailview { background: url('../images/resources/selector/icons.png') -40px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_detailview_off { background: url('../images/resources/selector/icons.png') -40px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_refreshthumb { background: url('../images/resources/selector/icons.png') -60px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_refreshthumb_off { background: url('../images/resources/selector/icons.png') -60px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_optimise { background: url('../images/resources/selector/icons.png') -80px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_optimise_off { background: url('../images/resources/selector/icons.png') -80px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_resize { background: url('../images/resources/selector/icons.png') -100px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_resize_off { background: url('../images/resources/selector/icons.png') -100px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_renamefile { background: url('../images/resources/selector/icons.png') -120px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_renamefile_off { background: url('../images/resources/selector/icons.png') -120px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_download { background: url('../images/resources/selector/icons.png') -140px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_download_off { background: url('../images/resources/selector/icons.png') -140px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_deletefile { background: url('../images/resources/selector/icons.png') -160px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_deletefile_off { background: url('../images/resources/selector/icons.png') -160px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_addfolder { background: url('../images/resources/selector/icons.png') -180px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_addfolder_off { background: url('../images/resources/selector/icons.png') -180px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_deletefolder { background: url('../images/resources/selector/icons.png') -160px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_deletefolder_off { background: url('../images/resources/selector/icons.png') -160px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_renamefolder { background: url('../images/resources/selector/icons.png') -120px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_renamefolder_off { background: url('../images/resources/selector/icons.png') -120px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_movefile { background: url('../images/resources/selector/icons.png') -200px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_movefile_off { background: url('../images/resources/selector/icons.png') -200px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_movefolder { background: url('../images/resources/selector/icons.png') -200px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_movefolder_off { background: url('../images/resources/selector/icons.png') -200px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_copyfolder { background: url('../images/resources/selector/icons.png') -220px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_copyfolder_off { background: url('../images/resources/selector/icons.png') -220px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+.rsi_copyfile { background: url('../images/resources/selector/icons.png') -220px 0px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: pointer; }
+.rsi_copyfile_off { background: url('../images/resources/selector/icons.png') -220px -20px no-repeat; width: 20px; height: 20px; display: inline-block; cursor: default; }
+/*================= File Classes =====================================*/
+.rsf_file { width: 108px; height: 130px; overflow: hidden; border: solid 1px #aab1a0; float: left; margin: 9px 16px 9px 0px; cursor: pointer; }
+.rsf_file:hover { border: solid 1px #7e8573; }
+.rsf_file_selected { width: 108px; height: 130px; overflow: hidden; border: solid 1px #aab1a0; float: left; margin: 9px 16px 9px 0px; cursor: pointer; background-color: #e1e8d9; }
+.rsf_file_selected:hover { border: solid 1px #7e8573; }
+.rsf_image { height: 108px; vertical-align: middle; width: 108px; text-align: center; }
+.rsf_imagetable { width: 100%; height: 100%; margin: 0px 0px 0px 0px; padding: 0px; text-align: center; vertical-align: middle; }
+.rsf_filename { width: 102px; line-height: 14px; font-size: 12px; color: Black; text-align: left; margin: 0px 3px; overflow: hidden; color: #54594d; }
+.rsf_file_selected .rsf_filename { color: #f43902; }
+
+.rsf_table { width: 100%; overflow: hidden; }
+.rsf_detailhead { font-size: 11px; font-weight: bold; border-bottom: solid 1px #ccc; }
+.rsf_iconfile { width: 16px; }
+.rsf_detailfile { font-weight: bold; width: 214px; overflow: hidden; }
+.rsf_detail { text-align: right; width: 50px; }
+.rsf_detailrow { background-color: #fff; cursor: pointer; }
+.rsf_detailalt { background-color: #e8e8ff; cursor: pointer; }
+.rsf_detail_selected { background-color: #dfd; cursor: pointer; }
+.rsf_detailrow:hover { background-color: #ddf; }
+.rsf_detailalt:hover { background-color: #ddf; }
+
+/*================= TreeView Classes ====================================*/
+#cistrv_container, #clstrv_container { height: 348px; padding: 0px; overflow: auto; z-index: 500; }
+.cistrv_loading, .clstrv_loading { background: url('../images/popups/transback.png'); z-index:1001; }
+.cistrv_branch, .clstrv_branch { line-height: 1px; font-size: 1px; }
+.cistrv_item, .clsitem { color: #000000; font: 11px Verdana, Arial, Helvetica, sans-serif; height: 16px; }
+.cistrv_item A, .cistrv_item A:visited, .clstrv_item A, .clstrv_item A:visited { text-decoration: none; color: #000000; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+.cistrv_item A:hover, .clstrv_item A:hover { text-decoration: none; color: #000099; font: 11px Verdana, Arial, Helvetica, sans-serif; }
+.cistrv_selected, .clstrv_selected { color: #c43a28; font: bold 11px Verdana, Arial, Helvetica, sans-serif; height: 16px; }
+.cistrv_selected A, .cistrv_selected A:visited, .clstrv_selected A, .clstrv_selected A:visited { text-decoration: none; color: #c43a28; font: bold 11px Verdana, Arial, Helvetica, sans-serif; }
+.cistrv_selected A:hover, .cistrv_selected A:hover:visited, .clstrv_selected A:hover, .clstrv_selected A:hover:visited { text-decoration: none; color: #c43a28; font: bold 11px Verdana, Arial, Helvetica, sans-serif; }
+.cistrv_highlight, .clstrv_highlight { color: #283ac4; font: bold 11px Verdana, Arial, Helvetica, sans-serif; background-color: #eee; height: 16px; }
+.cistrv_highlight A, .cistrv_highlight A:visited, .clstrv_highlight A, .clstrv_highlight A:visited { text-decoration: none; color: #283ac4; font: bold 11px Verdana, Arial, Helvetica, sans-serif; }
+.cistrv_highlight A:hover, .cistrv_highlight A:hover:visited, .clstrv_highlight A:hover, .clstrv_highlight A:hover:visited { text-decoration: none; color: #283ac4;  font: bold 11px Verdana, Arial, Helvetica, sans-serif; }
+.cistrv_disabled, .clstrv_disabled { color: #c3c3c3; font: 11px Verdana, Arial, Helvetica, sans-serif; font-style: italic; height: 16px; }
+.cistrv_disabled A, .cistrv_disabled A:visited, .clstrv_disabled A, .clstrv_disabled A:visited { text-decoration: none; color: #c3c3c3; font: 11px Verdana, Arial, Helvetica, sans-serif;  }
+.cistrv_disabled A:hover, .cistrv_disabled A:hover:visited, .clstrv_disabled A:hover, .clstrv_disabled A:hover:visited { text-decoration: none; color: #c3c3c3; font: 11px Verdana, Arial, Helvetica, sans-serif;  }
+.cistrv_icon, .clstrv_icon { display: inline-block; width: 16px; height: 16px; margin: 0px; background-repeat: no-repeat; vertical-align: bottom; background-position: left top; }
+.cistrv_shadow, .clstrv_shadow { opacity: 0.5; filter: alpha(opacity=50); background-color: #DDD; border: dashed 1px #aaa; }
+.cistrv_error, .clstrv_error { background: #fff; font: normal 10px Verdana; color: #c33; height: 12px; padding: 0px 10px 2px 10px; margin: 0px 0px 2px 0px; display: inline-block; border: solid 1px #c33; cursor: help; }
+.cistrv_active, .clstrv_active { background-color: #F6F8EA; }
+/*================= Popup Classes ====================================*/
+#rs_resizeimagecolours { font-size: 11px; }
+.rsp_colourblock { display: inline-block; border: solid 1px #ccc; width: 20px; height: 14px; vertical-align: middle; }
+.rsp_filename { display: inline-block; font-weight: bold; overflow: hidden; vertical-align: bottom; line-height: 14px; font-size: 12px; }

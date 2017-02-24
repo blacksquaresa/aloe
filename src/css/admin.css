@@ -1,0 +1,321 @@
+html {
+	height : 100%;
+}
+
+body {
+	font-family : Verdana;
+	font-size : 12px;
+	margin : 0;
+	padding : 0;
+	letter-spacing : 0px;
+	height : 100%;
+	color: #54594d;
+}
+
+A {
+	color : #8aae5a;
+}
+
+A img {
+	border : 0;
+}
+
+hr
+{
+	height: 0px;
+	line-height: 0px;
+	border: 0px;
+	border-bottom: solid 1px #54594d;
+	margin: 20px 0px;
+}
+
+hr.dotted
+{
+	border-bottom-style: dotted;
+}
+
+/* ====================== Top Section ==================== */
+
+#site
+{
+	position: relative;
+	min-height: 100%;
+}
+
+#testsitealert {
+	height: 20px;
+	padding: 5px;
+	background-color: #d33;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	border-bottom: solid 1px #000;
+	color: #fff;
+}
+
+#top {
+	min-height : 90px;
+	width: 100%;
+}
+
+#topcontainer 
+{
+	width: 1240px;
+	margin : 0 auto;
+	height: 50px;
+	color: #fff;
+}
+
+#topcontainer td {
+	height: 50px;
+	color : #889675;
+}
+
+.cms_header {
+}
+
+.cms_header .webtitle {
+	font-size : 16px;
+}
+#userarea{
+	float : right;
+	text-align : right;
+	margin-top: 13px;
+}
+#userarea a
+{	
+	text-decoration : none;
+}
+
+#topmenu {
+	width : 1230px;
+	height : 39px;
+	margin : 1px auto 0 auto;
+	padding: 0px 5px;
+	background-color: #b8d592;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.topmenuitem, .topmenuselected {
+	display : inline-block;
+	vertical-align : top;
+	margin : 0;
+}
+
+.topmenuitem
+{
+	padding: 1px;
+}
+
+.topmenuitem a, .topmenuselected a {
+	font-size : 14px;
+	line-height: 39px;
+	text-decoration : none;
+	display : inline-block;
+}
+
+.topmenuitem a, .topmenuitem a:visited
+{
+	color: #54594d;
+	padding: 0px 15px;
+}
+
+.topmenuitem a:hover {
+	color: #f43902;	
+}
+
+.topmenuselected a, .topmenuselected a:visited 
+{
+	color: #f43902;
+	padding: 0px 15px;
+}
+
+#main
+{
+	width: 1240px;
+	margin : 0 auto;
+	padding: 30px 0 90px 0;
+}
+
+/*================ Form Classes ===========================*/
+
+.button_row
+{
+	background-color: #efeee3;
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.error {
+	background : #e1e8d9 url('../images/admin/common/error.png') 10px 10px no-repeat;
+	font-size: 14px;
+	color: #54594d;
+	padding: 16px 20px 20px 50px;
+	margin-bottom: 10px;
+	display: block; 
+}
+
+.success {
+	background : #e1e8d9 url('../images/admin/common/confirm.png') 10px 10px no-repeat;
+	font-size: 14px;
+	color: #54594d;
+	padding: 16px 20px 20px 50px;
+	margin-bottom: 10px;
+	display: block; 
+}
+
+.note 
+{
+	font-size: 10px;
+	color : #a2a2a2;
+	text-align : left;
+	vertical-align : top;
+}
+
+.imagecontainer
+{
+	font-size: 0px;
+	line-height: 1em;
+}
+
+/*============= Listview Page Layouts =========================== */
+
+.page_title
+{
+}
+
+.page_leftcolumn
+{
+	width: 243px;
+	padding-right: 20px;
+}
+
+.page_textbox
+{
+	width: 231px;
+}
+
+.page_button
+{
+	width: 100%;
+	font-size: 12px;
+}
+
+.page_listview
+{
+	margin-bottom: 5px;
+}
+
+.downloaddiv {
+	float : right;
+}
+
+/*=============== Tab Classes =========================*/
+table.tabtable {
+	height : 39px;
+}
+
+td.tab 
+{
+	min-width : 180px;
+	vertical-align : top;
+	padding: 0 0 9px 0;
+}
+
+td.tab a, td.tab a:visited {
+	color : #54594d;
+	font-size: 14px;
+	text-decoration : none;
+	display: block;
+	background-color : #ebefe6;
+	height : 24px;
+	padding : 6px 8px 0 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+td.tabselected {
+	min-width : 180px;
+	background : url('../images/admin/common/tabpoint.png') center bottom no-repeat;
+	vertical-align : top;
+	padding: 0 0 9px 0;
+}
+
+td.tabselected A, td.tabselected a:visited {
+	font-size: 14px;
+	color : #f43902;
+	text-decoration : none;
+	height : 24px;
+	padding : 6px 8px 0 10px;
+	display: block;
+	background-color : #b8d592;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.tabextension {
+	
+}
+
+td.tabseparator {
+	width : 10px;
+}
+
+.tabpage {
+	display : none;
+}
+
+.tabpageselected {
+	display : block;
+	clear : both;
+	border-top : 0;
+}
+
+td.tabborders {
+}
+
+/* ====================== Footer ==================== */
+#footer
+{
+	height : 70px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.footerhood
+{
+	width: 1240px;
+	margin: 0px auto;
+	background-color: #ccd4c2;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	height: 20px;
+}
+
+#footer A {
+	text-decoration : none;
+}
+
+#footer-left {
+	float : left;
+	margin-top : 12px;
+}
+
+#footer-right {
+	float : right;
+	margin-top : 12px;
+}
+
+#footerline {
+	margin : 0 auto;
+	width : 1240px;
+}

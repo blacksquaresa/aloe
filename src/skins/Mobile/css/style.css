@@ -1,0 +1,151 @@
+/* =============================== Mandatory Styles =============================== */
+html { height: 100%; }
+body {
+	background: #f2f2f2;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#site
+{
+	position: relative;
+}
+
+#testsitealert {
+	height: 13px;
+	padding: 5px;
+	background-color: #d33;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 1em;
+	text-align: center;
+	border-bottom: solid 1px #000;
+	color: #fff;
+}
+
+#header {
+	font-size : 0px;
+	line-height: 1em;
+	margin : 0 auto;
+	padding : 0;
+	width : 100%;
+	height: 30px;
+	background-color: #f0f0ff;
+}
+
+#container  
+{
+	width: 100%; 
+	padding: 0; 
+}
+
+.content_table 
+{
+	background-color: #ffffff;
+	margin: 0 auto; 
+	width: calc(100% - 20px); 
+}	
+/* ============================ Menu Navigation =================== */
+#menu
+{
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+}
+
+.linklevel1 
+{
+	font-size: 14px;
+	display : block;
+	letter-spacing : 1px;
+	color : #000000;
+	margin : 0;
+	padding : 0px 0 6px 10px;
+	text-decoration : none;
+}
+
+.linklevel1:hover, .linklevel1:active, .linklevel1selected {
+	color : #ff0000;
+}
+
+/* ==========================Content Table =================== */
+.maincontent
+{
+	width: 100%;
+}
+
+.contentcolumn_1 {
+	margin : 0;
+	padding : 0;
+	width : 100%;
+	background-color: #ffffff;
+}
+
+.contentcolumn_2 {
+	margin : 0;
+	padding : 0 3% 0 0;
+	width : 47%;
+	background-color: #f0ffff;
+}
+
+.contentcolumn_3 {
+	margin : 0;
+	padding : 0 0 0 3%;
+	width : 47%;
+	background-color: #fff0ff;
+}
+
+.contentcolumn_4 {
+	margin : 0;
+	padding : 0 2% 0 0;
+	width : 30%;
+	background-color: #fff0ff;
+}
+
+.contentcolumn_5 {
+	margin : 0;
+	padding : 0 3% 0 3%;
+	width : 30%;
+	background-color: #fff0ff;
+}
+
+.contentcolumn_6 {
+	margin : 0;
+	padding : 0 0 0 2%;
+	width : 30%;
+	background-color: #fff0ff;
+}
+
+/* ====================== footer =============================== */
+#footer
+{
+	height: 60px;
+	width: 100%;
+}
+
+.footertable {
+	font-size : 12px;
+	width : 100%;
+	background: #fffff0;
+	height: 60px;
+}
+
+.footer_text {
+	font-size: 14px;
+	padding : 20px;
+}
+
+.footer_text_right {
+	text-align : right;
+	font-size : 11px;
+	padding : 20px;
+}
+
+.footer_text a, .footer_text a:hover, .footer_text a:active, .footer_text_right a, .footer_text_right a:hover, .footer_text_right a:active {
+	color : #000000;
+	font-size : 11px;
+	text-decoration : none;
+}
+
+/* =============================================== The End ==============================================================================*/

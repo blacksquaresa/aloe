@@ -1,0 +1,10 @@
+<aloe:if condition="$this->drawline"><hr style="clear: both;" /></aloe:if>
+<div class="list_item">
+	<aloe:if condition="!empty($this->webthumb)">
+		<a href="##$this->link##"><img src="##$this->webthumb##" class="list_image floatimageright" ##$this->size## alt="##$this->title##" /></a>
+	</aloe:if>
+	<div class="list_date"><aloe:call method="date" param1="d F Y" param2="##$this->date##" /></div>
+	<h3 class="list_heading"><a style="text-decoration: none;" href="##$this->link##">##$this->title##</a></h3>
+	<aloe:if condition="!empty($this->description)"><div class="list_content"><aloe:call method="nl2br" param1="##$this->description##" /></div></aloe:if>
+	<div class="list_link"><a href="##$this->link##" class="arrowlink">READ THE FULL STORY</a></div>
+</div>

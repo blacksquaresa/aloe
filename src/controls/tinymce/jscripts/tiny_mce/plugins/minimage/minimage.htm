@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{#minimage_dlg.title}</title>
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../../utils/form_utils.js"></script>
+	<script type="text/javascript" src="js/minimage.js"></script>
+	<link href="minimage.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<form onsubmit="MinImageDialog.insert();return false;" action="#">
+	<table class="properties">
+		<tr>
+			<td class="column1">Image:</td>
+			<td>
+				<table cellpadding="0" cellspacing="0">
+					<tr>
+						<td><input id="min_src" name="min_scr" type="text" class="mceFocus" value="" onchange="MinImageDialog.showPreviewImage(this.value);" /></td>
+						<td id="srcbrowser">&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="column1">Caption:</td>
+			<td><input id="min_caption" name="min_caption" type="text" value="" /></td>
+		</tr>
+		<tr>
+			<td class="column1">Padding:</td>
+			<td>
+				<table><tr>
+					<td>Top:</td>
+					<td><input id="min_padding_top" name="min_padding_top" style="width:40px" type="text" value="" /></td>
+					<td>Bottom:</td>
+					<td><input id="min_padding_bottom" name="min_padding_bottom" style="width:40px" type="text" value="" /></td>
+					<td>Right:</td>
+					<td><input id="min_padding_right" name="min_padding_right" style="width:40px" type="text" value="" /></td>
+					<td>Left:</td>
+					<td><input id="min_padding_left" name="min_padding_left" style="width:40px" type="text" value="" /></td>
+				</tr></table>
+			</td>
+		</tr>
+		<tr>
+			<td>Align:</td>
+			<td><select name="min_align" id="min_align">
+					<option value="">Normal</option>
+					<option value="left">Left</option>
+					<option value="right">Right</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<fieldset>
+					<legend>{#minimage_dlg.preview}</legend>
+					<div id="min_prev"></div>
+				</fieldset>
+			</td>
+		</tr>
+	</table>
+
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="insert" name="insert" value="{#insert}" onclick="MinImageDialog.insert();" />
+		</div>
+		
+		<div style="float: left">
+			<input type="button" id="cancel" name="remove" value="{#minimage_dlg.remove}" onclick="MinImageDialog.remove();" />
+		</div>
+
+		<div style="float: right">
+			<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+		</div>
+	</div>
+</form>
+
+</body>
+</html>

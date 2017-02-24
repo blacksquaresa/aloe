@@ -1,0 +1,193 @@
+/* =============================== Mandatory Styles =============================== */
+html { height: 100%; }
+body {
+	background: #f2f2f2;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#site
+{
+	position: relative;
+}
+
+#testsitealert {
+	height: 20px;
+	padding: 5px;
+	background-color: #d33;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	border-bottom: solid 1px #000;
+	color: #fff;
+}
+
+#header {
+	font-size : 0px;
+	line-height: 1em;
+	margin : 0 auto;
+	padding : 0;
+	width : 960px;
+	height: 120px;
+	background-color: #f0f0ff;
+}
+
+#container  
+{
+	width: 1000px; 
+	margin: 0 auto; 
+	padding: 0; 
+}
+
+.content_table 
+{
+	background-color: #ffffff;
+	width : 960px;
+}	
+
+.stripleft
+{
+	width: 20px;
+	background: #fff0f0;
+	text-align: right;
+}
+
+.stripright
+{
+	width: 20px;
+	background: #fff0f0;
+	text-align: left;
+}
+
+/* =============== Contact Details =============*/
+.contact_details     
+{
+	margin: 20px 0 0 0;
+}
+	
+.contact_header 
+{ 
+}
+.contact_detail
+{  
+	padding: 5px 0px; 
+}
+.contact_label 
+{  
+	
+}
+/* ============================ Menu Navigation =================== */
+.menu_nav_left {
+	width : 220px;
+	padding: 30px 20px 90px 0px;
+	background: #f0fff0;
+}
+
+#contentleft {
+	height : 100%;
+	margin : 0;
+	padding : 0;
+	width : 220px;
+}
+
+.linklevel1 
+{
+	font-size: 14px;
+	display : block;
+	letter-spacing : 1px;
+	color : #000000;
+	margin : 0;
+	padding : 0px 0 6px 10px;
+	text-decoration : none;
+}
+
+.linklevel1:hover, .linklevel1:active, .linklevel1selected {
+	color : #ff0000;
+}
+
+.menu_divider  
+{
+	height: 0px; 
+    font-size: 0; 
+    line-height: 1em;
+    margin-bottom: 8px; 
+    border-bottom: solid 1px #000;
+}
+
+/* ==========================Content Table =================== */
+.main_content_area
+{
+	padding: 30px 0px 90px 0px;
+}
+
+.contentcolumn_1 {
+	margin : 0;
+	padding : 0;
+	width : 720px;
+	background-color: #ffffff;
+}
+
+.contentcolumn_2 {
+	margin : 0;
+	padding : 0;
+	width : 470px;
+	background-color: #f0ffff;
+}
+
+.contentcolumn_3 {
+	margin : 0;
+	padding : 0 30px 0 0;
+	width : 220px;
+	background-color: #fff0ff;
+}
+
+.contentcolumn_4 {
+	margin : 0;
+	padding : 0;
+	width : 220px;
+	background-color: #fff0ff;
+}
+
+.contentcolumn_5 {
+	margin : 0;
+	padding : 0 0 0 30px;
+	width : 220px;
+	background-color: #fff0ff;
+}
+
+/* ====================== footer =============================== */
+#footer
+{
+	position: absolute;
+	bottom: 0px;
+	height: 60px;
+	width: 100%;
+}
+
+.footertable {
+	font-size : 12px;
+	margin : 0 auto;
+	width : 960px;
+	background: #fffff0;
+	height: 60px;
+}
+
+.footer_text {
+	font-size: 14px;
+	padding : 20px;
+}
+
+.footer_text_right {
+	text-align : right;
+	font-size : 11px;
+	padding : 20px;
+}
+
+.footer_text a, .footer_text a:hover, .footer_text a:active, .footer_text_right a, .footer_text_right a:hover, .footer_text_right a:active {
+	color : #000000;
+	font-size : 11px;
+	text-decoration : none;
+}
+
+/* =============================================== The End ==============================================================================*/

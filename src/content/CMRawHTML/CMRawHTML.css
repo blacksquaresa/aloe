@@ -1,0 +1,10 @@
+.CMRawHTML_display
+{
+	border: solid 1px #ccc;
+	background: #f0f0f0;
+	padding: 5px 20px;
+	font-family: 'Courier New', Courier, Serif;
+	font-size: 12px;
+	letter-spacing: normal;
+	text-align: center;
+}

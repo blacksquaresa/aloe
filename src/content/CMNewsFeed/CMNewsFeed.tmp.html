@@ -1,0 +1,10 @@
+<aloe:contentcontainer class="CMNewsFeed_container">
+	<aloe:if condition="$this->foredit && empty($this->heading) && (!is_array($this->articles) || !count($this->articles))">
+		<h2>[Untitled Empty News Feed]</h2>
+	<aloe:else />
+		<aloe:if condition="!empty($this->heading)"><h2 class="CMNewsFeed_header">##$this->heading##</h2></aloe:if>
+		<div class="CMNewsFeed_content" style="overflow: hidden;">
+			<aloe:call object="this" method="drawArticles" />
+		</div>
+	</aloe:if>
+</aloe:contentcontainer>

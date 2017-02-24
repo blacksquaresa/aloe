@@ -1,0 +1,188 @@
+/*
+***** W3C recommended Font Families *****
+Georgia, serif
+"Palatino Linotype", "Book Antiqua", Palatino, serif
+"Times New Roman", Times, serif
+Arial, Helvetica, sans-serif
+"Arial Black", Gadget, sans-serif
+"Comic Sans MS", cursive, sans-serif
+Impact, Charcoal, sans-serif
+"Lucida Sans Unicode", "Lucida Grande", sans-serif
+Tahoma, Geneva, sans-serif
+"Trebuchet MS", Helvetica, sans-serif
+Verdana, Geneva, sans-serif
+"Courier New", Courier, monospace
+"Lucida Console", Monaco, monospace
+*/
+body, td, pre {
+	font: normal 12px Verdana, Geneva, sans-serif;
+	line-height: 1.4em;
+	color: #333333;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: normal;
+	color : #0082b2;
+	margin : 0 0 10px 0;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: normal;
+	color : #004762;
+	margin : 0 0 5px 0;
+	text-transform : none;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: normal;
+	color : #004762;
+	letter-spacing : normal;
+	margin : 0 0 5px 0;
+	text-transform : none;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: normal;
+	color : #0082b2;
+	margin : 0 0 10px 0;
+	text-transform : uppercase;
+	padding: 0 0 10px 0;
+	border-bottom: solid 1px #004762;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: normal;
+	color : #76888f;
+	line-height: 1.5em;
+	text-transform : none;
+}
+
+h6 {
+	font-size: 12px;
+	font-weight: normal;
+	color : #0082b2;
+	margin : 0 0 10px 0;
+	text-transform : uppercase;
+}
+
+P {
+	margin : 0 0 20px 0;
+	padding : 0;
+}
+
+ul, ol {
+	margin : 0 0 10px 20px;
+	padding : 0;
+}
+
+li {
+	margin : 0;
+	padding : 3px 0 3px 0;
+}
+
+hr {
+	height : 0px;
+	margin : 10px 0;
+	border: 0px;
+	border-bottom: solid 1px #004762;
+}
+
+a img {
+	border : none;
+}
+
+a {
+	text-decoration : underline;
+	color : #333333;
+}
+
+a:visited
+{
+	color: #757575;
+}
+
+blockquote
+{
+	color: #004762;
+	padding: 20px;
+	background-color: #f4f4f4;
+	font-size: 14px;
+	font-family: Georgia, serif;
+	font-style: italic;
+	line-height: 1.8em;
+	margin: 0 0 20px 0;
+}
+
+blockquote p:last-child
+{
+	margin-bottom: 0px;
+}
+
+input, textarea, select
+{
+	font: normal 12px Verdana, Geneva, sans-serif; 
+}
+
+.arrowlink {
+	background : url('../images/arrowlink.png') no-repeat left top;
+	display : block;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight : normal;
+	color : #333333;
+	padding : 0 0 0 24px;
+	text-transform : none;
+	text-decoration : none;
+	margin: 8px 0px;
+}
+
+.arrowlink:visited
+{
+	color: #333333;
+}
+
+.floatimageright {
+	float : right;
+	margin : 0 0 20px 20px;
+	padding : 0;
+}
+
+.floatimageleft {
+	float : left;
+	margin : 0 20px 20px 0;
+	padding : 0;
+}
+
+.imagecaption
+{
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.button
+{
+	background-color: #004762;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 0px;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 30px;
+	text-decoration: none;
+	padding: 0 20px 0 20px;
+	width: 170px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+}
+input.button
+{
+	width: 220px;
+}

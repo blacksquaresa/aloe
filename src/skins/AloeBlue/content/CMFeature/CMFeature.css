@@ -1,0 +1,7 @@
+.CMFeature_container { margin-bottom : 20px; background-color: #004762; }
+.CMFeature_heading { padding: 0px 10px; line-height: 40px; font-size: 16px; color: #fff; text-transform: uppercase;}
+.CMFeature_subtitle { color: #2fb6e8; padding: 0px 10px; }
+.CMFeature_content { line-height: 1.2em; font-size: 14px; padding: 0 10px; color: #fff; }
+.CMFeature_image { font-size: 0; margin: 0; padding: 0; }
+.CMFeature_link { padding: 10px; }
+.CMFeature_link a { color: #fff !important; }

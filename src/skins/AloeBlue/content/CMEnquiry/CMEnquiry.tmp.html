@@ -1,0 +1,113 @@
+<aloe:contentcontainer class="CMEnquiry_container">
+	<h4 class="CMEnquiry_header">##$this->heading##</h4>
+	<form name="CMEnquiry_form" id="CMEnquiry_form_##$this->id##" method="post">
+	<aloe:if condition="$this->column->id == CONTENTCOLUMN_MAIN">
+		<table cellpadding="0" cellspacing="0" class="CMEnquiry_wide">
+			<tr>
+				<td class="CMEnquiry_field_label">Your Name:</td>
+				<td class="CMEnquiry_field_label" style="padding-left:30px;">Enquiry:</td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_field_td"><input type="text" name="CMEnquiry_name" id="CMEnquiry_name_##$this->id##" class="CMEnquiry_field" /></td>
+				<td rowspan="5" class="CMEnquiry_field_td" style="padding-left:30px;" valign="top"><textarea class="CMEnquiry_textbox" name="CMEnquiry_enquiry" id="CMEnquiry_enquiry_##$this->id##" ></textarea></td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_field_label">Email Address:</td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_field_td"><input type="text" name="CMEnquiry_email" id="CMEnquiry_email_##$this->id##" class="CMEnquiry_field" /></td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_field_label">Contact Number:</td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_field_td"><input type="text" name="CMEnquiry_phone" id="CMEnquiry_phone_##$this->id##" class="CMEnquiry_field" /></td>
+			</tr>
+			<tr>
+				<td>
+					<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td class="CMEnquiry_question" nowrap>##{drawCaptcha('CMEnquiry_question_'.$this->id)}## <input type="text" name="answer" id="CMEnquiry_answer_##$this->id##" style="width:20px;" /></td>
+							<td class="CMEnquiry_antispam" nowrap>Use only digits: "1", not "one"</td>						
+						</tr>
+					</table>
+				</td>
+				<td style="padding-left:30px;"><input type="button" name="CMEnquiry_submit" id="CMEnquiry_submit" value="Submit Enquiry" class="CMEnquiry_submit button" onclick="CMEnquiry_sendMail(##$this->id##)" /></td>
+			</tr>
+		</table>
+	<aloe:elseif condition="in_array($this->column->id,array(CONTENTCOLUMN_SINISTER,CONTENTCOLUMN_DEXTER))" />
+		<table cellpadding="0" cellspacing="0" class="CMEnquiry_medium">
+			<tr>
+				<td class="CMEnquiry_field_label">Your Name:</td>
+				<td class="CMEnquiry_field_label" style="padding-left:30px;">Enquiry:</td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_field_td"><input type="text" name="CMEnquiry_name" id="Text5" class="CMEnquiry_field" /></td>
+				<td rowspan="5" class="CMEnquiry_field_td" style="padding-left:30px;" valign="top"><textarea class="CMEnquiry_textbox" name="CMEnquiry_enquiry" id="Textarea2" ></textarea></td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_field_label">Email Address:</td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_field_td"><input type="text" name="CMEnquiry_email" id="Text6" class="CMEnquiry_field" /></td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_field_label">Contact Number:</td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_field_td"><input type="text" name="CMEnquiry_phone" id="Text7" class="CMEnquiry_field" /></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td class="CMEnquiry_question" nowrap>##{drawCaptcha('CMEnquiry_question_'.$this->id)}## <input type="text" name="answer" id="Text8" style="width:20px;" /></td>
+							<td class="CMEnquiry_antispam" nowrap>Use only digits: "1", not "one"</td>						
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="button" name="CMEnquiry_submit" id="Button2" value="Submit Enquiry" class="CMEnquiry_submit button" onclick="CMEnquiry_sendMail(##$this->id##)" />
+				</td>
+			</tr>
+		</table>
+	<aloe:else />
+		<table cellpadding="0" cellspacing="0" class="CMEnquiry_compact">
+			<tr>
+				<td colspan="2" class="CMEnquiry_field_label">Your Name:</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="CMEnquiry_field_td"><input type="text" name="CMEnquiry_name" id="Text1" class="CMEnquiry_field" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="CMEnquiry_field_label">Email Address:</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="CMEnquiry_field_td"><input type="text" name="CMEnquiry_email" id="Text2" class="CMEnquiry_field" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="CMEnquiry_field_label">Contact Number:</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="CMEnquiry_field_td"><input type="text" name="CMEnquiry_phone" id="Text3" class="CMEnquiry_field" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="padding-bottom:4px;">Enquiry:</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="CMEnquiry_field_td"><textarea class="CMEnquiry_textbox" name="CMEnquiry_enquiry" id="Textarea1" ></textarea></td>
+			</tr>
+			<tr>
+				<td class="CMEnquiry_question">##{drawCaptcha('CMEnquiry_question_'.$this->id)}## <input type="text" name="answer" id="Text4" style="width:20px;" /></td>
+				<td class="CMEnquiry_antispam" nowrap>Use only digits: "1", not "one"</td>	
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" name="CMEnquiry_submit" id="Button1" value="Submit Enquiry" class="CMEnquiry_submit button" onclick="CMEnquiry_sendMail(##$this->id##)" /></td>
+			</tr>
+		</table>
+	</aloe:if>
+	</form>
+	<div id="CMEnquiry_working_##$this->id##" class="CMEnquiry_working" style="display: none;"><img src="##$skin->webpath##/images/loader.gif" /></div>
+</aloe:contentcontainer>

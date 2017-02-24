@@ -1,0 +1,78 @@
+.lvheader
+{
+	padding : 10px 0 10px 10px;
+	text-transform : uppercase;
+	color : #54594d;
+	border-bottom: dotted 1px #7e8573;
+} 
+.lvheader A, .lvheader A:visited {
+	color : #54594d;
+	background : url('../../images/admin/common/sort.png') no-repeat right 6px;
+	padding: 0 12px 0 0;
+	text-decoration: none;
+}
+
+.lvheader A:hover {
+	background : url('../../images/admin/common/sorto.png') no-repeat right 6px;
+	text-decoration: underline;
+}
+
+.lvitem {
+	color : #54594d;
+	padding : 10px 5px 10px 10px;
+	border-bottom: dotted 1px #7e8573;
+}
+
+.lvitem A {
+	color : #8aae5a;
+}
+
+.lvbold {
+	color : #f43902;
+	padding : 10px 5px 10px 10px;
+	border-bottom: dotted 1px #7e8573;
+}
+
+.lvbold A {
+	color : #f43902;
+	text-decoration : underline;
+}
+
+.lvrow {
+	background-color : #fff;
+}
+
+.lvaltrow {
+	background-color : #fff;
+}
+
+.lvresults {
+	color : #7e8573;
+	padding : 8px 6px 4px 10px;
+}
+
+.lvpaging {
+	color : #f43902;
+}
+
+.lvpaging A {
+	color : #7e8573;
+}
+
+.lvpaging img
+{
+	margin: 0px 4px;
+}
+
+.lvloading {
+	border : 1px dotted #7e8573;
+}
+
+.lvloading TD {
+	font-size: 16px;
+	text-transform : uppercase;
+}
+
+.lvtable {
+	width : 100%;
+}

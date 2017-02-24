@@ -1,0 +1,7 @@
+<aloe:contentcontainer class="CMRSSFeed_container">
+	<aloe:if condition="!empty($this->heading)"><h3 class="CMRSSFeed_heading">##$this->heading##</h3></aloe:if>
+	<div class="CMRSSFeed_content" style="overflow: hidden;">
+	<aloe:call method="drawFeedItems" object="this" />
+	</div>
+	<aloe:if condition="!empty($this->link) && !empty($this->linktext)"><div class="CMRSSFeed_link"><a href="##$this->link##" class="arrowlink" target="##$this->target##">##$this->linktext##</a></div></aloe:if>
+</aloe:contentcontainer>

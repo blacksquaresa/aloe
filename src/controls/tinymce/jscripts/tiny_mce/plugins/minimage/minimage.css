@@ -1,0 +1,11 @@
+#min_prev 
+{
+	height: 128px;
+	width: 370px;
+	overflow: auto;
+}
+
+input 
+{
+	width: 280px;
+}

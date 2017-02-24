@@ -1,0 +1,76 @@
+.acctab
+{
+	display: none;
+}
+.acctabselected
+{
+	width: 100%; 
+	padding: 10px 0;
+	overflow: auto;
+	position: relative;
+}
+
+.linkselector_emailtable td
+{
+	padding: 2px 0px 3px 0px;
+}
+
+.header
+{
+	font: bold 11px Verdana;
+	color: #C43A28;
+}
+
+.note
+{
+	font-size: 10px;
+	font-style: italic;
+	color: #333;
+}
+
+/* Treeview calsses */
+#ajgls_container { height: 259px; width: 500px; overflow: auto; }
+.ajgls_loading { background: url('../images/transback.png'); z-index:1001; }
+.ajgls_branch { line-height: 1px; font-size: 1px; }
+.ajgls_line { display: inline-block; height: 16px; vertical-align: bottom; font-size: 1px; line-height: 1px; }
+.ajgls_item { color: #000000; font-size: 11px; height: 16px; line-height: 16px; }
+.ajgls_item A, .ajgls_item A:visited { text-decoration: none; color: #000000; font-size: 11px; }
+.ajgls_item A:hover { text-decoration: none; color: #000099; font-size: 11px; }
+.ajgls_selected { color: #c43a28; font-size: 11px;font-weight: bold; height: 16px; }
+.ajgls_selected A, .ajgls_selected A:visited { text-decoration: none; color: #c43a28; font-size: 11px;font-weight: bold; }
+.ajgls_selected A:hover, .ajgls_selected A:hover:visited { text-decoration: none; color: #c43a28; font-size: 11px;font-weight: bold; cursor: pointer; }
+.ajgls_highlight { color: #283ac4; font-size: 11px;font-weight: bold; background-color: #eee; height: 16px; }
+.ajgls_highlight A, .ajgls_highlight A:visited { text-decoration: none; color: #283ac4; font-size: 11px;font-weight: bold; }
+.ajgls_highlight A:hover, .ajgls_highlight A:hover:visited { text-decoration: none; color: #283ac4;  font-size: 11px;font-weight: bold; }
+.ajgls_disabled { color: #283ac4; font-size: 11px;font-style: italic; height: 16px; }
+.ajgls_disabled A, .ajgls_disabled A:visited { text-decoration: none; color: #283ac4; font-size: 11px;font-style: italic;  }
+.ajgls_disabled A:hover, .ajgls_disabled A:hover:visited { text-decoration: none; color: #283ac4; font-size: 11px;font-style: italic;  }
+.ajgls_icon { display: inline-block; width: 16px; height: 16px; margin: 0px; background-repeat: no-repeat; vertical-align: bottom; background-position: left top; }
+.ajgls_shadow { opacity: 0.5; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); background-color: #DDD; border: dashed 1px #aaa; }
+.ajgls_error { background: #fff; font-size: 10px; font-weight: normal; color: #c33; height: 12px; padding: 0px 10px 2px 10px; margin: 0px 0px 2px 0px; display: inline-block; border: solid 1px #c33; cursor: help; }
+
+
+/* Accordion classes*/
+.accbutton, .accbuttonselected
+{
+	width: 480px;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #f2efe8;
+	font-size: 12px;
+	line-height: 12px;
+	border-top: solid 1px #93928e;
+}
+.accbutton
+{
+	color: #363636;
+}
+.accbuttonselected
+{
+	color: #a90000;
+}
+
+.accbutton:first-child, .accbuttonselected:first-child
+{
+	border-top: none;
+}

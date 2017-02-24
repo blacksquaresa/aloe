@@ -1,0 +1,87 @@
+.colourblock
+{
+	width: 20px;
+	height: 20px;
+	margin: 0px;
+	float: left;
+	cursor: pointer;
+}
+
+.transblock
+{
+	border: dotted 1px #ccc;
+	width: 18px;
+	height: 18px;
+	float: left;
+}
+
+.largecolourblock
+{
+	width: 100px;
+	height: 80px;
+	margin: 0px;
+}
+
+.colourcontainer
+{
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.label
+{
+	font-size: 10px;
+	margin: 0px 4px;
+}
+
+.shadepicker
+{
+	font-size: 11px;
+	width: 30px;
+}
+
+.hexbox
+{
+	width: 60px;
+	letter-spacing: 1px;
+}
+
+hr   
+{
+	height: 0px;
+	border: 0px;
+	border-bottom: dotted 1px #b0b49f;
+	margin: 7px 0px;
+}
+
+#selector
+{
+	width: 256px;
+	height: 256px;
+	position: relative;
+	font-size: 0px;
+	line-height: 1em;
+}
+
+#hueslider
+{
+	width: 20px;
+	padding: 0px 20px;
+	position: relative;
+	font-size: 0px;
+	line-height: 1em;
+}
+
+#colourpos
+{
+	position: absolute;
+	left: 16px;
+	bottom: -3px;
+}
+
+#colourspot
+{
+	position: absolute;
+	left: -7px;
+	bottom: -7px;
+}

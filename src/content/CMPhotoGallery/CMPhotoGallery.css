@@ -1,0 +1,36 @@
+.CMPhotoGallery_container { margin-top: 0px; margin-bottom: 20px; }
+
+/* Picture Frame */
+.CMPhotoGallery_frame { position: relative; overflow: hidden; margin-bottom: 10px; }
+.CMPhotoGallery_loading { position: absolute; top: 50%; left: 50%; margin: -16px 0 0 -16px; }
+.CMPhotoGallery_imagecontainer { position: absolute; top: 0px; left: 0px; visibility: hidden; }
+.CMPhotoGallery_caption { position: absolute; bottom: 0px; left: 0px; }
+.CMPhotoGallery_captionback { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: #eee; opacity: .75; filter: alpha(opacity=75); }
+.CMPhotoGallery_captiontext { padding: 10px; position: relative; }
+
+.CMPhotoGallery_frame { width: 470px; height: 313px; }
+.CMPhotoGallery_imagecontainer, .CMPhotoGallery_column1 .CMPhotoGallery_imagecontainer img { width: 470px; height: 313px; }
+.CMPhotoGallery_caption { width: 470px; }
+
+/* Scroller */
+.CMPhotoGallery_beforebutton { background: url('scrollleft.png') no-repeat; cursor: pointer; float: left; }
+.CMPhotoGallery_afterbutton { background: url('scrollright.png')  no-repeat;  cursor: pointer; float: left; }
+.CMPhotoGallery_beforedisabled { cursor: default; }
+.CMPhotoGallery_afterdisabled { cursor: default; }
+
+.CMPhotoGallery_panel a { text-decoration: none; border: none; font-size: 0px; line-height: 1em; }
+.CMPhotoGallery_window { overflow: hidden; position: relative; margin: 0px 0px; float: left; }
+.CMPhotoGallery_belt { position: relative; left: 0px; }
+.CMPhotoGallery_panel { padding: 0; float: left; text-decoration: none; font-size: 0px; line-height: 1em; }
+
+.CMPhotoGallery_slider { height: 53px; width: 470px; }
+.CMPhotoGallery_window { height: 53px; width: 440px; }
+.CMPhotoGallery_belt { height: 53px;  }
+.CMPhotoGallery_panel { width: 88px; height: 53px; }
+.CMPhotoGallery_panel img { margin: 0px 4px 0px 4px; width: 80px; height: 53px; }
+.CMPhotoGallery_beforebutton { width: 15px; height: 53px; background-position: 50% -23px; }
+.CMPhotoGallery_afterbutton { width: 15px; height: 53px; background-position: 50% -23px; }
+.CMPhotoGallery_beforeclicked, .CMPhotoGallery_beforebutton:hover { background-position: 50% -223px; }
+.CMPhotoGallery_afterclicked, .CMPhotoGallery_afterbutton:hover { background-position: 50% -223px; }
+.CMPhotoGallery_beforedisabled, .CMPhotoGallery_beforedisabled:hover { background-position: 50% -123px; }
+.CMPhotoGallery_afterdisabled, .CMPhotoGallery_afterdisabled:hover { background-position: 50% -123px; }

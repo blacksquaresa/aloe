@@ -1,0 +1,25 @@
+#trv_container { z-index: 500; }
+
+.trv_loading { background: url('../images/transback.png'); z-index:1001; }
+
+.trv_branch { line-height: 1px; font-size: 1px; }
+.trv_line { display: inline-block; height: 22px; vertical-align: bottom; font-size: 1px; line-height: 1px; }
+
+.trv_item { color: #54594d; font-size: 12px; height: 22px; line-height: 22px; }
+.trv_item A, .trv_item A:visited { text-decoration: none; color: #54594d; font-size: 12px; }
+.trv_item A:hover { text-decoration: none; color: #000099; font-size: 12px; }
+.trv_selected { color: #f43902; font-size: 12px; font-weight: bold; height: 22px; line-height: 22px; }
+.trv_selected A, .trv_selected A:visited { text-decoration: none; color: #f43902; font-size: 12px; font-weight: bold; }
+.trv_selected A:hover, .trv_selected A:hover:visited { text-decoration: none; color: #f43902; font-size: 12px; font-weight: bold; cursor: pointer; }
+.trv_highlight { color: #f43902; font-size: 12px; font-weight: bold; background-color: #eee; height: 22px; line-height: 22px; }
+.trv_highlight A, .trv_highlight A:visited { text-decoration: none; color: #f43902; font-size: 12px; font-weight: bold; }
+.trv_highlight A:hover, .trv_highlight A:hover:visited { text-decoration: none; color: #f43902;  font-size: 12px; font-weight: bold; }
+.trv_disabled { color: #54594d; font-size: 10px; text-transform: uppercase; height: 22px; line-height: 22px; }
+.trv_disabled A, .trv_disabled A:visited { text-decoration: none; color: #54594d; font-size: 10px; text-transform: uppercase; }
+.trv_disabled A:hover, .trv_disabled A:hover:visited { text-decoration: none; color: #54594d; font-size: 10px; text-transform: uppercase; }
+
+.trv_icon { display: inline-block; width: 16px; height: 22px; margin: 0px; background-repeat: no-repeat; vertical-align: bottom; background-position: left top; }
+
+.trv_shadow { opacity: 0.5; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); background-color: #DDD; border: dashed 1px #aaa; }
+
+.trv_error { background: #fff; font: normal 10px Verdana; color: #c33; height: 12px; padding: 0px 10px 2px 10px; margin: 0px 0px 2px 0px; display: inline-block; border: solid 1px #c33; cursor: help; }

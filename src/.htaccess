@@ -1,0 +1,8 @@
+Options -Indexes
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*)$ $1/index.htm [NE,QSA,PT]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*\.htm) /redirect.php?path=$1 [NE,QSA]
+
+ErrorDocument 404 /404.php

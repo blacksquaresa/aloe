@@ -1,0 +1,165 @@
+/*
+***** W3C recommended Font Families *****
+Georgia, serif
+"Palatino Linotype", "Book Antiqua", Palatino, serif
+"Times New Roman", Times, serif
+Arial, Helvetica, sans-serif
+"Arial Black", Gadget, sans-serif
+"Comic Sans MS", cursive, sans-serif
+Impact, Charcoal, sans-serif
+"Lucida Sans Unicode", "Lucida Grande", sans-serif
+Tahoma, Geneva, sans-serif
+"Trebuchet MS", Helvetica, sans-serif
+Verdana, Geneva, sans-serif
+"Courier New", Courier, monospace
+"Lucida Console", Monaco, monospace
+*/
+body, td, pre {
+	font: normal 16px Arial;
+	line-height: 1.4em;
+	color: #000000;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: bold;
+	color : #000000;
+	letter-spacing : 1px;
+	margin : 0 0 10px 0;
+	display: block;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color : #000000;
+	letter-spacing : 1px;
+	margin : 0 0 10px 0;
+	text-transform : none;
+}
+
+h3 {
+	font-size: 19px;
+	font-weight: bold;
+	color : #000000;
+	letter-spacing : normal;
+	margin : 0 0 5px 0;
+	text-transform : none;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: bold;
+	color : #000000;
+	letter-spacing : normal;
+	margin : 0 0 5px 0;
+	text-transform : none;
+}
+
+h5 {
+	font-size: 17px;
+	font-weight: bold;
+	color : #000000;
+	letter-spacing : normal;
+	margin : 0 0 5px 0;
+	text-transform : none;
+}
+
+h6 {
+	font-size: 16px;
+	font-weight: bold;
+	color : #000000;
+	letter-spacing : normal;
+	margin : 0 0 5px 0;
+	text-transform : none;
+}
+
+P {
+	margin : 0 0 20px 0;
+	padding : 0;
+}
+
+ul, ol {
+	margin : 0 0 10px 20px;
+	padding : 0;
+}
+
+li {
+	margin : 0;
+	padding : 3px 0 3px 0;
+}
+
+hr {
+	height : 0px;
+	margin : 10px 0;
+	border: 0px;
+	border-bottom: solid 1px #000000;
+}
+
+a img {
+	border : none;
+}
+
+a {
+	text-decoration : underline;
+	color : #000099;
+}
+
+input, textarea, select
+{
+	font: normal 16px Arial; 
+}
+
+.arrowlink {
+	background : url('../images/arrowlink.png') no-repeat 0 5px;
+	display : block;
+	font-size: 14px;
+	font-weight : bold;
+	color : #ff0000;
+	padding : 0 0 0 10px;
+	text-transform : uppercase;
+	text-decoration : none;
+	margin: 8px 0px;
+}
+
+.floatimageright {
+	float : right;
+	margin : 0 0 20px 20px;
+	padding : 0;
+}
+
+.floatimageleft {
+	float : left;
+	margin : 0 20px 20px 0;
+	padding : 0;
+}
+
+.imagecaption
+{
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.button
+{
+	background-color: #b8d592;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 0px;
+	color: #54594d;
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration: none;
+	background-position: 7px 50%;
+	background-repeat: no-repeat;
+	padding: 0 20px 0 30px;
+	width: calc(100% - 56px);
+	height: 30px;
+	display: inline-block;
+	text-align: left;
+}
+input.button
+{
+	width: 100%;
+}

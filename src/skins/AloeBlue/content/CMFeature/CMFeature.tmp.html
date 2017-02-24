@@ -1,0 +1,13 @@
+<aloe:contentcontainer class="CMFeature_container">
+	<aloe:if condition="!empty($this->heading)"><div class="CMFeature_heading">##$this->heading##</div></aloe:if>
+	<aloe:if condition="!empty($this->imagepath)">
+		<div class="CMFeature_image">
+			<aloe:if condition="!empty($this->link)"><a href="##$this->link##" target="##$this->target##"></aloe:if>
+				<img src="##$this->imagepath##" alt="##$this->heading##" ##$this->size[3]## />
+			<aloe:if condition="!empty($this->link)"></a></aloe:if>
+		</div>
+	</aloe:if>
+	<aloe:if condition="!empty($this->subtitle)"><h3 class="CMFeature_subtitle">##$this->subtitle##</h3></aloe:if>
+	<aloe:if condition="!empty($this->content)"><div class="CMFeature_content"><aloe:call method="nl2br" param1="##$this->content##" /></div></aloe:if>
+	<aloe:if condition="!empty($this->link) && !empty($this->linktext)"><div class="CMFeature_link"><a href="##$this->link##" class="arrowlink" target="##$this->target##">##$this->linktext##</a></div></aloe:if>
+</aloe:contentcontainer>

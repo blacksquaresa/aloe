@@ -1,0 +1,118 @@
+body, html
+{
+	margin: 0px;
+	padding: 0px;
+	background: White;
+}
+
+#site
+{
+	position: inherit;
+	min-height: 0px;
+	margin: 0px auto;
+	padding: 4px;
+}
+
+.cbl_loading 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: solid 1px #fff;
+	z-index : 497;
+	background: #fff url('../images/loader.gif') center center no-repeat;
+	vertical-align: top;
+	padding : 0;
+}
+.cbl_invisible {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index : 498;
+	border: solid 1px #fff;
+	background : url('../images/admin/content/content/invisback.png');
+	padding : 0;
+}
+.cbl_disabled
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index : 498;
+	border: dotted 1px #717171;
+	background : url('../images/admin/content/content/transback.png');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/admin/content/content/transback.png", sizingMethod="scale");
+	padding : 0;
+}
+
+.cbl_buttons {
+	height : 25px;
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	z-index : 499;
+}
+
+.cbl_buttons_small {
+	height : 25px;
+	float: right;
+	margin: 4px 4px 0 0;
+	z-index : 499;
+	position: relative;
+}
+
+.cbl_colbuttons {
+	height : 25px;
+	position: absolute;
+	right: 4px;
+	bottom: 4px;
+	z-index : 499;
+}
+
+.cbl_colbuttons_small {
+	height : 25px;
+	float: right;
+	margin: 4px 4px 0 0;
+	z-index : 499;
+	position: relative;
+}
+
+.cbl_buttons IMG, cbl_colbuttons IMG {
+	margin : 0 0;
+	border : none;
+	vertical-align : middle;
+	padding : 0;
+}
+
+.cbl_buttons, .cbl_buttons_small, .cbl_colbuttons, .cbl_colbuttons_small, .cbl_name
+{
+	display: none;
+}
+
+.cbl_disabled .cbl_buttons, .cbl_disabled .cbl_buttons_small, .cbl_disabled .cbl_colbuttons, .cbl_disabled .cbl_colbuttons_small, .cbl_disabled .cbl_name
+{
+	display: block;
+}
+
+.cbl_gears
+{
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	display: inline;
+}
+
+.cbl_disabled .cbl_gears
+{
+	display: none;
+}
+
+.cbl_name
+{
+	position: absolute;
+	top: 30px;
+	right: 9px;
+	line-height: 24px;
+	color: #ccc;
+	font: 20px Verdana;
+}

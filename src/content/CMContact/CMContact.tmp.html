@@ -1,0 +1,36 @@
+<aloe:contentcontainer class="CMContact_container">
+	<aloe:if condition="!empty($this->heading)"><h2>##$this->heading##</h2></aloe:if>
+	<table cellpadding="0" cellspacing="0" width="100%">
+		<aloe:if condition="!empty($this->email)"><tr><td class="CMContact_detail" colspan="2"><span class="CMContact_label">Email: </span><a href="mailto:##$this->obfuscatedemail##">##$this->obfuscatedemail##</a></td></tr></aloe:if>
+		<aloe:if condition="!empty($this->phone) || !empty($this->fax) || !empty($this->cell)">
+			<tr>
+				<td colspan="2" class="CMContact_detail">
+					<aloe:if condition="!empty($this->phone)"><span class="CMContact_label">Phone: </span>##$this->phone## &nbsp; &nbsp; </aloe:if>
+					<aloe:if condition="!empty($this->fax)"><span class="CMContact_label">Fax: </span>##$this->fax## &nbsp; &nbsp; </aloe:if>
+					<aloe:if condition="!empty($this->cell)"><span class="CMContact_label">Cell: </span>##$this->cell##</aloe:if>
+				</td>
+			</tr>
+		</aloe:if>
+		<aloe:if condition="!empty($this->physical) || !empty($this->postal)">
+			<tr>
+				<aloe:if condition="!empty($this->physical)">
+					<td valign="top">
+						<h3 class="CMContact_addresstitle">Physical Address</h3>
+						<div class="CMContact_address"><aloe:call method="nl2br" param1="##$this->physical##" /></div>
+					</td>
+				</aloe:if>
+				<aloe:if condition="!empty($this->postal)">
+					<td valign="top">
+						<h3 class="CMContact_addresstitle">Postal Address</h3>
+						<div class="CMContact_address"><aloe:call method="nl2br" param1="##$this->postal##" /></div>
+					</td>
+				</aloe:if>
+			</tr>
+		</aloe:if>
+		<aloe:if condition="!empty($this->map)">
+			<tr>
+				<td colspan="2"><aloe:call object="this" method="drawMap" /></td>
+			</tr>			
+		</aloe:if>
+	</table>
+</aloe:contentcontainer>

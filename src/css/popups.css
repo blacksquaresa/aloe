@@ -1,0 +1,89 @@
+.popup_popup
+{
+	border : 1px solid #96a188;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color : #fff;
+	z-index : 1000;
+}
+
+.popup_head
+{
+	font-size : 14px;
+	color : #54594d;
+	background-color : #e1e8d9;
+	padding : 6px 4px 8px 10px;
+	height: 15px;
+}
+
+.popup_head img {
+	margin : 5px 5px 0 0;
+	position : absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.popup_body
+{
+	padding : 9px;
+	background : #ffffff;
+}
+
+.popup_invisible
+{
+	background: url('../images/popups/invisback.png'); 
+	/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/popups/invisback.png", sizingMethod="scale");*/
+    z-index:998;
+}
+
+.popup_disabled
+{
+	background: #fff;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+    z-index:998;
+}
+
+.popup_loading
+{
+	width: 100%;
+	height: 100%;
+	background: url('../images/popups/loading.gif') 50% 50% no-repeat; 
+    z-index:999;
+}
+
+.popup_completed
+{
+	width: 100%;
+	height: 100%;
+	background: url('../images/popups/completed.png') 50% 50% no-repeat; 
+    z-index:999;
+}
+
+.popup_error {
+	background : #ffd6d6;
+	padding : 9px;
+}
+
+.popup_error_text {
+	padding : 0px 11px 0px 0;
+	color : #c00;
+	font-size : 12px;
+	overflow : hidden;
+	height : 70px;
+	overflow: auto;
+}
+
+.popup_message {
+	background : #eef7dd;
+	padding : 9px;
+}
+
+.popup_message_text {
+	padding : 0px 11px 0px 0;
+	color : #57861a;
+	font-size : 12px;
+	height : 70px;
+	overflow: auto;
+}

@@ -1,0 +1,32 @@
+.GV_editcell
+{
+	border: solid 1px #aaa;
+	margin: 0px 20px 12px 0px;
+	-moz-box-shadow: 4px 4px 2px #888;
+	-webkit-box-shadow: 4px 4px 2px #888;
+	box-shadow: 4px 4px 2px #888;
+}
+
+.GV_thumb
+{
+	padding: 2px;
+}
+
+.GV_buttons
+{
+	border-top: solid 1px #d8d8d8;
+	padding: 2px 2px 2px 2px;
+	font-size: 2px;
+}
+
+.GV_buttons A
+{
+	padding: 0px 2px;
+}
+
+.GV_movebutton
+{
+	float: right;
+	margin-right: 0px;
+	cursor: move;
+}

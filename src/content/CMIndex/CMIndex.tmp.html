@@ -1,0 +1,8 @@
+<aloe:contentcontainer class="CMIndex_container">
+	<aloe:if condition="$this->foredit && empty($this->heading) && (!is_array($this->pages) || !count($this->pages))">
+		<h2>[Untitled Empty Index]</h2>
+	<aloe:else />
+		<aloe:if condition="!empty($this->heading)"><h2>##$this->heading##</h2></aloe:if>
+		<aloe:call object="this" method="drawItems" />
+	</aloe:if>
+</aloe:contentcontainer>

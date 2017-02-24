@@ -1,0 +1,51 @@
+#lightbox{
+	background-color: #353535;
+	padding: 4px;
+	margin: 0px;
+	z-index: 120000;
+	}
+#lightboxDetails
+{
+	clear: both;
+	font-size: 0em;
+	padding-top: 0em;
+	margin: 0px;
+
+}	
+.next_prev_container
+{
+	height: 32px;
+}
+#lightbox_next_button_container
+{
+	width: 62px;
+	height: 32px;
+	font-size: 0;
+	right: 4px;
+	position: absolute;
+}
+
+#lightbox_prev_button_container
+{
+	width: 62px;
+	height: 32px;
+	font-size: 0;
+	left: 4px;
+	position: absolute;
+}
+	
+#lightboxCaption{ float: left; color: #fff;font-size: 12px; }
+#keyboardMsg{ float: right; }
+#closeButton{ top: 4px; right: 4px; }
+
+#lightbox img{ border: none; clear: both;} 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(../images/overlay_new.png); }
+
+* html #overlay{
+	background-color: #333;
+	back\ground-color: transparent;
+	background-image: url(blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/overlay_new.png", sizingMethod="scale");
+	}

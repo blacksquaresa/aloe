@@ -1,0 +1,26 @@
+.CMRSSFeed_container {
+	margin-bottom : 20px;
+}
+
+.CMRSSFeed_itemdate {
+	color : #888877;
+	font: italic 12px Georgia;
+}
+
+.CMRSSFeed_itemtitle, .CMRSSFeed_itemtitle A {
+	font-size: 14px;
+	text-decoration : none;
+}
+
+.CMRSSFeed_itemtext {
+	padding-top: 10px;
+}	
+
+.CMRSSFeed_itemdivider {
+	clear : both;
+	margin: 10px 0px;
+}
+
+.CMRSSFeed_title A {
+	text-decoration : none;
+}

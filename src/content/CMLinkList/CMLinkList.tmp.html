@@ -1,0 +1,10 @@
+<aloe:contentcontainer class="CMLinkList_container">
+	<aloe:if condition="$this->foredit && (!is_array($this->urls) || !count($this->urls)) && empty($this->header)">
+		<h2>[Untitled Empty Link List]</h2>
+	<aloe:else />
+		<aloe:if condition="!empty($this->header)"><h2>##$this->header##</h2></aloe:if>
+		<div class="CMLinkList_Links">
+			<aloe:call object="this" method="drawLinks" />
+		</div>
+	</aloe:if>
+</aloe:contentcontainer>

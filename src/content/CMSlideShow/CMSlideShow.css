@@ -1,0 +1,18 @@
+.CMSlideShow_container { margin-top: 0px; margin-bottom: 20px; }
+.CMSlideShow_imagecontainer { position: relative; }
+.CMSlideShow_imagecontainer a { display: block; font-size: 0px; line-height: 0px; }
+.CMSlideShow_overlay { background: #fff; opacity: 0.7; filter: alpha(opacity=70); }
+
+.CMSlideShow_dotcontainer { height: 16px; max-width: 90%; overflow: hidden; position: absolute; bottom: 20px; right: 20px; }
+.CMSlideShow_dotcontainer span { cursor: pointer; width: 16px; height: 16px; display: inline-block; }
+.CMSlideShow_dotcontainer_trans { height: 16px; max-width: 90%; overflow: hidden; position: absolute; bottom: 20px; right: 20px; }
+.CMSlideShow_dotcontainer_trans span { cursor: default; width: 16px; height: 16px; display: inline-block; opacity: 0.5; filter: alpha(opacity=50); }
+.CMSlideShow_dot { background: url('dot.png') top left no-repeat; }
+.CMSlideShow_dotselected { background: url('doto.png') top left no-repeat; }
+
+.CMSlideShow_thumbcontainer { max-width: 90%; overflow: hidden; position: absolute; bottom: 20px; right: 20px; }
+.CMSlideShow_thumbcontainer img { cursor: pointer; margin-right: 5px; }
+.CMSlideShow_thumbcontainer_trans { max-width: 90%; overflow: hidden; position: absolute; bottom: 20px; right: 20px; }
+.CMSlideShow_thumbcontainer_trans img { cursor: default; opacity: 0.5; filter: alpha(opacity=50); margin-right: 5px; }
+.CMSlideShow_thumb { border: solid 2px transparent; }
+.CMSlideShow_thumbselected { border: solid 2px #004890; }

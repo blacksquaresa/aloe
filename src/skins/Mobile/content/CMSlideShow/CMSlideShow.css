@@ -1,0 +1,4 @@
+.CMSlideShow_container { width: 100% !important; height: auto !important; }
+.CMSlideShow_imagecontainer > div > a { width: 100% !important; height: auto !important; }
+.CMSlideShow_imagecontainer > div > div > a { width: 50% !important; height: auto !important; }
+.CMSlideShow_imagecontainer img { width: 100% !important; height: auto !important; }

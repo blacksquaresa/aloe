@@ -1,0 +1,30 @@
+<aloe:contentcontainer class="CMListItem_container">
+	<aloe:if condition="$this->size[0]==300">
+		<a href="##$this->link##" target="##$this->target##" class="CMListItem_topimage">
+			<img src="##$this->imagepath##" alt="##$this->heading##" ##$context->size[3]## />
+		</a>
+		<aloe:if condition="!empty($this->heading)"><h2 class="CMListItem_heading">##$this->heading##</h2></aloe:if>
+		<aloe:if condition="!empty($this->subtitle)"><h3 class="CMListItem_subtitle">##$this->subtitle##</h3></aloe:if>
+		<aloe:if condition="!empty($this->content)"><div class="CMListItem_content">##{nl2br($this->content)}##</div></aloe:if>
+		<aloe:if condition="!empty($this->link) && !empty($this->linktext)"><div class="CMListItem_link"><a href="##$this->link##" class="arrowlink" target="##$this->target##">##$this->linktext##</a></div></aloe:if>
+	<aloe:else />
+		<table cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<aloe:if condition="!empty($this->imagepath)">
+					<td valign="top" class="CMListItem_leftimage" width="##this->size[0]##">
+						<a href="##$this->link##" target="##$this->target##">
+							<img src="##$this->imagepath##" alt="##$this->heading##" ##$context->size[3]## />
+						</a>
+					</td>
+				</aloe:if>
+				<td valign="top">
+					<aloe:if condition="!empty($this->heading)"><h2 class="CMListItem_heading">##$this->heading##</h2></aloe:if>
+					<aloe:if condition="!empty($this->subtitle)"><h3 class="CMListItem_subtitle">##$this->subtitle##</h3></aloe:if>
+					<aloe:if condition="!empty($this->content)"><div class="CMListItem_content">##{nl2br($this->content)}##</div></aloe:if>
+					<aloe:if condition="!empty($this->link) && !empty($this->linktext)"><div class="CMListItem_link"><a href="##$this->link##" class="arrowlink" target="##$this->target##">##$this->linktext##</a></div></aloe:if>
+				</td>
+			</tr>
+		</table>
+	</aloe:if>
+	<aloe:if condition="$this->drawline"><hr style="clear: both;" /></aloe:if>
+</aloe:contentcontainer>

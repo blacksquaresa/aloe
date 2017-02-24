@@ -1,0 +1,9 @@
+<aloe:if condition="$this->drawline"><hr style="clear: both;" /></aloe:if>
+<div class="list_item">
+	<aloe:if condition="!empty($this->webthumb)">
+		<a href="##$this->link##"><img src="##$this->webthumb##" class="news_image floatimageright" ##$this->size## alt="##$this->title##" /></a>
+	</aloe:if>
+	<div class="news_itemdate">##{date('d F Y',$this->date)}##</div>
+	<h2 class="news_heading"><a href="##$this->link##">##$this->title##</a></h2>
+	<aloe:if condition="!empty($this->description)"><div class="news_content">##{nl2br($this->description)}##</div></aloe:if>
+</div>

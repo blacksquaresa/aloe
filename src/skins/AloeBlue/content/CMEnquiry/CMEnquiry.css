@@ -1,0 +1,25 @@
+.CMEnquiry_container { margin-bottom: 20px; }
+.CMEnquiry_header { margin-bottom: 10px !important; }
+
+.CMEnquiry_field_td { padding-bottom: 4px; }
+.CMEnquiry_antispam { font-size: 10px; padding: 5px 0 0 10px; color: #76888f; background: transparent; }
+.CMEnquiry_question { padding: 5px 0 0 0; background: transparent; }
+.CMEnquiry_submit { margin-top: 5px; width: 100% !important; }
+.CMEnquiry_working { position: relative; }
+.CMEnquiry_working img { position: absolute; top: 50%; left: 50%; margin: -8px 0 0 -64px; }
+
+.CMEnquiry_wide .CMEnquiry_field { width: 294px; }
+.CMEnquiry_wide .CMEnquiry_field_label { vertical-align: top; padding-top: 3px; }
+.CMEnquiry_wide .CMEnquiry_textbox{ width: 294px; height: 106px; }
+.CMEnquiry_wide .CMEnquiry_working { display: block; height: 174px; }
+
+.CMEnquiry_medium .CMEnquiry_field { width: 224px; }
+.CMEnquiry_medium .CMEnquiry_field_label { vertical-align: top; padding-top: 3px; }
+.CMEnquiry_medium .CMEnquiry_textbox{ width: 204px; height: 106px; }
+.CMEnquiry_medium .CMEnquiry_working { display: block; height: 214px; }
+.CMEnquiry_medium .CMEnquiry_question { padding: 10px 0 10px 0; background: transparent; }
+
+.CMEnquiry_compact .CMEnquiry_field { width: 294px; }
+.CMEnquiry_compact .CMEnquiry_field_label { vertical-align: top; padding-top: 3px; }
+.CMEnquiry_compact .CMEnquiry_textbox{ width: 294px; height: 90px; }
+.CMEnquiry_compact .CMEnquiry_working { display: block; height: 332px; }

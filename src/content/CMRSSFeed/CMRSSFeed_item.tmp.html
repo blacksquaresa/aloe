@@ -1,0 +1,7 @@
+<div class="CMRSSFeed_item">
+	<aloe:if condition="$this->ind>1"><div class="CMRSSFeed_itemdivider"></div></aloe:if>
+	<div class="CMRSSFeed_itemtitle"><a href="##$this->link##" target="_blank">##$this->title##</a></div>
+	<aloe:if condition="!empty($this->date)"><div class="CMRSSFeed_itemdate">##{date('d F Y',$this->date)}##</div></aloe:if>
+	<aloe:if condition="!empty($this->description)"><div class="CMRSSFeed_itemtext">##$this->description##</div></aloe:if>
+	<div style="padding: 0px; margin: 4px 0px 0px 0px;"><a href="##$this->link##" target="_blank" class="arrowlink">Read the full story</a></div>
+</div>
